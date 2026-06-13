@@ -1,0 +1,43 @@
+.experience__button {
+  background: white;
+  box-shadow: 0px 3px 6px #0000000a;
+  border: 0;
+  text-align: center;
+  padding: 0;
+  cursor: pointer;
+  transition: transform 250ms;
+
+  @include tablet {
+    &:hover,
+    &:focus {
+      transform: scale(1.1);
+    }
+  }
+
+  .experience__img {
+    border: 5px solid $clr-primary;
+  }
+
+  span {
+    font-weight: bold;
+    font-size: 1.125rem;
+    padding: 1rem 0;
+    display: inline-block;
+  }
+}
+
+.isDark .experience__button {
+  background: $primary;
+  color: $clr-grey;
+}
+
+.swiper {
+  overflow-y: visible !important;
+  padding-bottom: 4rem !important;
+}
+
+.swiper-pagination-bullet {
+  background: $clr-primary !important;
+  width: 20px !important;
+  height: 20px !important;
+}

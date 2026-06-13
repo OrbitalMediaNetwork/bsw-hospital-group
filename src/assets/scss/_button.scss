@@ -1,0 +1,63 @@
+.button {
+  background: white;
+  color: $clr-black !important;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  backdrop-filter: blur(50px);
+  border-radius: 50px;
+  font-size: 1rem;
+  // box-shadow: $box-shadow;
+  border: 1px solid white;
+  transition: all 250ms;
+}
+
+.button__home {
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  border-radius: 50%;
+  padding: 0.35rem;
+  width: 44px;
+  height: 44px;
+}
+
+.menu__item.bg-red,
+.menu__item.bg-red:hover {
+  background-color: #b91c1c !important;
+
+  animation: shake 0.75s ease-in-out 0s 1 normal forwards;
+}
+
+.menu__item.bg-green,
+.menu__item.bg-green:hover {
+  background-color: green !important;
+}
+
+@keyframes shake {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateX(-8px);
+  }
+
+  20%,
+  40%,
+  60% {
+    transform: translateX(8px);
+  }
+
+  80% {
+    transform: translateX(6px);
+  }
+
+  90% {
+    transform: translateX(-6px);
+  }
+}

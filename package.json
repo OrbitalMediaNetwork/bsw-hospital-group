@@ -1,0 +1,24 @@
+{
+    "name": "scoop-nuclear-welder",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@videojs-player/vue": "^1.0.0",
+        "bulma": "^0.9.4",
+        "date-fns": "^3.6.0",
+        "pinia": "^2.0.23",
+        "swiper": "^8.4.4",
+        "video.js": "^7.20.3",
+        "vue": "^3.2.41",
+        "vue-router": "^4.1.5"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^3.1.2",
+        "sass": "^1.56.1",
+        "vite": "^3.1.8"
+    }
+}

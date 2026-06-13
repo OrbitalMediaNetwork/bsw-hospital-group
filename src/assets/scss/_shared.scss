@@ -1,0 +1,111 @@
+/* Shared layout styles */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 114px);
+}
+
+/* Shared list styles */
+.info-list {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  list-style-type: disc;
+  text-align: left;
+}
+
+.info-list li {
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.info-list li:last-child {
+  margin-bottom: 0;
+}
+
+/* Special styling for thank you notes */
+.info-list li.thank-you {
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* Shared title styles */
+.page-title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.page-title--large {
+  font-size: 1.5rem;
+}
+
+.page-title--medium {
+  font-size: 1.25rem;
+}
+
+.page-title--small {
+  font-size: 1.125rem;
+  padding: 0.5rem 1rem;
+  border: solid lightgrey 2px;
+  max-width: 380px;
+  margin: 4rem auto 2rem;
+}
+
+/* Shared text styles */
+.welcome-text {
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+/* Client selection styles */
+.client-selection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+.client-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 200px;
+  cursor: pointer;
+}
+
+.client-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.client-logo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.client-name {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Disable state for navigation buttons */
+.navigation-buttons:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}

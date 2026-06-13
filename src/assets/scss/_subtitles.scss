@@ -1,0 +1,16 @@
+.video-js .vjs-text-track-display {
+  @include desktop {
+    bottom: 8rem !important;
+  }
+}
+
+.vjs-fullscreen.video-js.vjs-controls-disabled .vjs-text-track-display {
+    bottom: 14rem !important;
+    
+    @include tablet {
+      bottom: 10rem !important;
+    }
+    @include desktop {
+      bottom: 8rem !important;
+    }
+}

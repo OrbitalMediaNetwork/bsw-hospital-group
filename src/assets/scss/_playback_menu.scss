@@ -1,0 +1,455 @@
+.video-js {
+  font-family: $family-sans-serif;
+}
+
+.menu {
+  text-align: center;
+  font-size: 0.9375rem;
+  background: #fff;
+  width: 100%;
+  border: 1px solid #dadada;
+  padding: 1rem 0.75rem;
+
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: -109px;
+
+  @include tablet {
+    font-size: 1.125rem;
+    bottom: -122px;
+  }
+
+  @include desktop {
+    padding: 1rem;
+    bottom: -107px;
+  }
+
+  @include widescreen {
+    bottom: -116px;
+  }
+
+  @include fullhd {
+    bottom: -103px;
+  }
+}
+
+.vjs-fullscreen .menu {
+  position: fixed;
+
+  bottom: 0;
+}
+
+.menu__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  color: $clr-black-2 !important;
+  background: transparent !important;
+  padding: 0.5rem;
+  border-radius: 7px;
+  font-size: 0.75rem !important;
+
+  @include tablet {
+    font-size: 1rem !important;
+  }
+
+  @include desktop {
+    font-size: 1.125rem !important;
+  }
+}
+
+.menu__item--with-text {
+  display: inline-flex !important;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.5rem 0.75rem;
+
+  @include tablet {
+    padding: 0.65rem 1.45rem;
+  }
+
+  @include desktop {
+    padding: 1rem 1.75rem;
+  }
+
+  @include widescreen {
+    padding: 1rem 2.25rem;
+  }
+}
+
+.menu__item--active {
+  background-color: $clr-grey-3 !important;
+}
+
+.menu__item--playback {
+  margin: 0 0.25rem;
+
+  @include tablet {
+    margin: 0 0.5rem;
+  }
+
+  @include widescreen {
+    margin: 0 0.85rem;
+  }
+
+  @include fullhd {
+    margin: 0 1rem;
+  }
+}
+
+.menu__item--borders {
+  border-top: $clr-grey-2 solid 1px !important;
+  border-radius: 0;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.menu__btn {
+  cursor: pointer;
+
+  &:disabled {
+    cursor: default;
+  }
+}
+
+.menu__btn.h-full:focus {
+  background: $clr-primary !important;
+  color: white !important;
+}
+
+.menu__btn--toggle {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 44px;
+  height: 44px;
+  margin: 0 auto
+}
+
+.isDark {
+  .menu {
+    background: $clr-black-2;
+    border: 1px solid rgb(39, 39, 39);
+  }
+
+  .menu__item {
+    color: $clr-grey-2 !important;
+  }
+
+  .menu__item--active {
+    background: $clr-grey-4 !important;
+  }
+
+  .menu__item--with-text {
+    color: $clr-grey-2;
+  }
+}
+
+.w-100 {
+  width: 100%;
+}
+
+//
+// Icon sizing
+// ==========================================================================
+
+.menu__volume {
+  width: 60px;
+}
+
+.icon--volume {
+  width: 19px; // 50% of 38px
+}
+
+.icon--fullscreen {
+  width: 16px; // 50% of 32px
+}
+
+.icon--skip {
+  width: 15.5px; // 50% of 31px
+}
+
+.icon--close {
+  width: 7px; // 50% of 14px
+}
+
+.icon--play,
+.icon--pause {
+  height: 17.5px; // 50% of 35px
+  width: 15px; // 50% of 30px
+}
+
+.icon--dark-mode {
+  width: 14px; // 50% of 28px
+}
+
+.icon--subtitles {
+  width: 18.5px; // 50% of 37px
+}
+
+.icon--sections {
+  width: 16px; // 50% of 32px
+}
+
+@media (min-width: 769px) {
+  .menu__volume {
+    width: 75px;
+  }
+
+  .icon--volume {
+    width: 24.7px; // 65% of 38px
+  }
+
+  .icon--fullscreen {
+    width: 20.8px; // 65% of 32px
+  }
+
+  .icon--skip {
+    width: 20.15px; // 65% of 31px
+  }
+
+  .icon--close {
+    width: 9.1px; // 65% of 14px
+  }
+
+  .icon--play,
+  .icon--pause {
+    height: 22.75px; // 65% of 35px
+    width: 19.5px; // 65% of 30px
+  }
+
+  .icon--dark-mode {
+    width: 18.2px; // 65% of 28px
+  }
+
+  .icon--subtitles {
+    width: 24.05px; // 65% of 37px
+  }
+
+  .icon--sections {
+    width: 20.8px; // 65% of 32px
+  }
+}
+
+@media (min-width: 1216px) {
+  .menu__volume {
+    width: 100px;
+  }
+
+  .icon--volume {
+    width: 38px;
+  }
+
+  .icon--fullscreen {
+    width: 32px;
+  }
+
+  .icon--skip {
+    width: 31px;
+  }
+
+  .icon--close {
+    width: 14px;
+  }
+
+  .icon--play,
+  .icon--pause {
+    height: 35px;
+    width: 30px;
+  }
+
+  .icon--dark-mode {
+    width: 28px;
+  }
+
+  .icon--subtitles {
+    width: 37px;
+  }
+
+  .icon--sections {
+    width: 32px;
+  }
+}
+
+.isDark {
+  .icon {
+    fill: white;
+  }
+}
+
+//
+// Vue transitions for menu toggle
+// ==========================================================================
+
+.menu-enter-from,
+.menu-leave-to {
+  transform: translate(0, 35px) scale(0);
+}
+
+.menu-enter-to,
+.menu-leave-from {
+  transform: translate(0, 0) scale(1);
+}
+
+.toggle-enter-from,
+.toggle-leave-to {
+  transform: translate(-50%, -35px) scale(3);
+  opacity: 0;
+}
+
+.toggle-enter-to,
+.toggle-leave-from {
+  transform: translate(-50%, 0) scale(1);
+  opacity: 1;
+}
+
+.menu-enter-active,
+.menu-leave-active,
+.toggle-enter-active,
+.toggle-leave-active {
+  transition: all 200ms ease-in-out !important;
+}
+
+//
+// Customise range input appearance, based on http://danielstern.ca/range.css/?ref=css-tricks#/
+// ==========================================================================
+
+input[type="range"] {
+  margin: 5.5px 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: $clr-black-2;
+  border: 0;
+  height: 4px;
+  border-radius: 4px;
+  /* Added border-radius */
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  margin-top: -5.5px;
+  width: 16px;
+  height: 16px;
+  background: $clr-black-2;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+input[type="range"]:focus::-webkit-slider-runnable-track {
+  background: $clr-black-2;
+}
+
+input[type="range"]::-moz-range-track {
+  background: $clr-black-2;
+  border: 0;
+  height: 4px;
+  border-radius: 4px;
+  /* Added border-radius */
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: $clr-black-2;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+input[type="range"]::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  border-width: 5.5px 0;
+  color: transparent;
+  height: 4px;
+  border-radius: 4px;
+  /* Added border-radius */
+  cursor: pointer;
+}
+
+input[type="range"]::-ms-fill-lower {
+  background: #121212;
+  border: 0;
+}
+
+input[type="range"]::-ms-fill-upper {
+  background: $clr-black-2;
+  border: 0;
+}
+
+input[type="range"]::-ms-thumb {
+  width: 16px;
+  height: 16px;
+  background: $clr-black-2;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 0px;
+  /*Needed to keep the Edge thumb centred*/
+}
+
+input[type="range"]:focus::-ms-fill-lower {
+  background: $clr-black-2;
+}
+
+input[type="range"]:focus::-ms-fill-upper {
+  background: $clr-black-2;
+}
+
+/*TODO: Use one of the selectors from https://stackoverflow.com/a/20541859/7077589 and figure out
+  how to remove the vertical space around the range input in IE*/
+@supports (-ms-ime-align: auto) {
+
+  /* Pre-Chromium Edge only styles, selector taken from https://stackoverflow.com/a/32202953/7077589 */
+  input[type="range"] {
+    margin: 0;
+    /*Edge starts the margin from the thumb, not the track as other browsers do*/
+  }
+}
+
+.isDark {
+  input[type="range"]:focus::-ms-fill-lower {
+    background: white;
+  }
+
+  input[type="range"]::-ms-fill-upper {
+    background: white;
+  }
+
+  input[type="range"]::-moz-range-track {
+    background: white;
+  }
+
+  input[type="range"]::-webkit-slider-runnable-track {
+    background: white;
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    background: $clr-grey;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    background: $clr-grey;
+  }
+
+  input[type="range"]::-ms-thumb {
+    background: $clr-grey;
+  }
+}
