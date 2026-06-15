@@ -2,6 +2,10 @@
   <div class="page-wrapper">
     <div>
       <h1 class="welcome-title">Select Your Organisation</h1>
+
+      <div v-if="routeMessage" class="route-message">
+        {{ routeMessage }}
+      </div>
       
       <div class="client-selection">
         <div
@@ -45,9 +49,18 @@ export default {
     };
   },
 
+  computed: {
+    routeMessage() {
+      return this.$route.query.message || "";
+    },
+  },
+
   methods: {
     selectClient(client) {
       this.selectedClient = client;
+      if (this.$route.query.message) {
+        this.$router.replace({ path: '/', query: {} });
+      }
       // Store the selected client in the video store
       const videoStore = useVideoStore();
       videoStore.setSelectedClient(client);
@@ -55,6 +68,20 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.route-message {
+  max-width: 600px;
+  margin: 1rem auto 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  color: #856404;
+  text-align: center;
+  font-size: 1rem;
+}
+</style>
 
 <style scoped>
 .client-card--selected {

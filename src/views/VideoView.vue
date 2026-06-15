@@ -1,8 +1,10 @@
 <template>
-    <CustomVideoPlayer
-        @onClickBack="backToHome"
-        :showSectionsMenu="showSectionsMenu"
-    />
+    <div v-if="isValidExperience">
+        <CustomVideoPlayer
+            @onClickBack="backToHome"
+            :showSectionsMenu="showSectionsMenu"
+        />
+    </div>
 </template>
 
 <script>
@@ -20,27 +22,74 @@ export default {
     data() {
         return {
             showSectionsMenu: false,
+            isValidExperience: false,
         };
     },
 
     computed: {
         ...mapStores(useVideoStore),
+
+        validationBackRoute() {
+            return this.videoStore.selectedClient
+                ? { path: "/experiences", label: "Back to Experiences" }
+                : { path: "/", label: "Back to Home" };
+        },
     },
 
     methods: {
         backToHome() {
-            this.$router.push("/experiences");
+            this.$router.push(this.validationBackRoute.path);
+        },
+
+        redirectToHome(message) {
+            this.$router.push({
+                path: "/",
+                query: {
+                    message: message
+                }
+            });
+        },
+
+        validateExperience() {
+            const slug = this.$route.params.slug;
+
+            if (!this.videoStore.selectedClient) {
+                this.redirectToHome("Please select the organisation first.");
+                return false;
+            }
+
+            const experience = this.videoStore.experiences.find(
+                (i) => i.slug === slug
+            );
+
+            if (!experience) {
+                this.redirectToHome("That experience is not available for this organisation.");
+                return false;
+            }
+
+            if (!experience.videos || experience.videos.length === 0) {
+                this.redirectToHome("That experience is not available for this organisation.");
+                return false;
+            }
+
+            this.videoStore.currentExperience = experience;
+            this.videoStore.currentVideo = experience.videos[0];
+            this.videoStore.videoIndex = 0;
+            this.isValidExperience = true;
+            return true;
         },
     },
 
     created() {
-        const slug = this.$route.params.slug;
-        this.videoStore.currentExperience = this.videoStore.experiences.find(
-            (i) => i.slug === slug
-        );
-        this.videoStore.currentVideo =
-            this.videoStore.currentExperience.videos[0];
-        this.videoStore.videoIndex = 0;
+        this.validateExperience();
+    },
+
+    watch: {
+        "$route.params.slug": {
+            handler() {
+                this.validateExperience();
+            },
+        },
     },
 };
 </script>
