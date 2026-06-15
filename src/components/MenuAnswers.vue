@@ -6,7 +6,7 @@
             </p>
         </div>
 
-        <div class="flex-center">
+        <div class="flex-center w-full">
             <div
                 v-for="answer in filteredAnswers"
                 :key="answer.id"
