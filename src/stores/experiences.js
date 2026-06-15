@@ -5,7 +5,7 @@ export const experiences = [
         thumbURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/Epistemic+Exploitation+Image.png",
         videos: [
             {
-                name: "Introduction",
+                name: "Initial Disclosure Introduction",
                 type: "narrative",
                 videoURL:
                     "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/gina-avatar/OPENING+GINA.mp4",
@@ -14,7 +14,7 @@ export const experiences = [
 
 
             {
-                name: "Scene 1 – Initial disclosure",
+                name: "Initial Disclosure Example",
                 type: "question",
                 videoURL:
                     "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/scene-1/SCENE+1/SCENE+1+OPENING.mp4",
@@ -48,7 +48,7 @@ export const experiences = [
                 ],
             },
             {
-                name: "Initial disclosure conclusion",
+                name: "Initial Disclosure Conclusion",
                 type: "narrative",
                 videoURL:
                     "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/gina-avatar/SCENE+1+GINA+REFLECTION.mp4",
@@ -56,7 +56,7 @@ export const experiences = [
             },
 
             {
-                name: "Introduction",
+                name: "The Retelling Loop Introduction",
                 type: "narrative",
                 videoURL:
                     "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/gina-avatar/GINA+SCENE+2+INTRO.mp4",
@@ -64,7 +64,7 @@ export const experiences = [
             },
 
             {
-                name: "Scene 2 – The retelling loop",
+                name: "The Retelling Loop Example",
                 type: "question",
                 videoURL:
                     "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/scene-2/SCENE+2/SCENE+2+OPENING.mp4",
@@ -99,7 +99,7 @@ export const experiences = [
             },
             
             {
-                name: "The retelling loop conclusion",
+                name: "The Retelling Loop Conclusion",
                 type: "quiz",
                 videoURL:
                     "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/gina-avatar/SCENE+2+REFLECTION.mp4",
@@ -129,7 +129,7 @@ export const experiences = [
                 ],
             },
 
-            {  name: "Introductions",
+            {  name: "Team Conversation Introduction",
                 type: "narrative",
                 videoURL:
                     "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/gina-avatar/GINA+SCENE+3+INTRO.mp4",
@@ -137,7 +137,7 @@ export const experiences = [
             },
 
             {
-                name: "Scene 3 – Team conversation",
+                name: "Team Conversation Example",
                 type: "question",
                 videoURL:
                     "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/scene-3/SCENE+3+OPENING.mp4",
@@ -171,7 +171,7 @@ export const experiences = [
                 ],
             },
             {
-                name: "Team conversation conclusion",
+                name: "Team Conversation Conclusion",
                 type: "narrative",
                 videoURL:
                     "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/gina-avatar/GINA+FINAL+CLOSE.mp4",
