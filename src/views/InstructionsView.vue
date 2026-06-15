@@ -2,6 +2,7 @@
   <div class="page-wrapper">
     <div>
       <h2 class="page-title page-title--large">How to Use These Training Modules</h2>
+      <p class="page-subtitle">Follow these quick tips to get the most out of your learning experience</p>
       
       <ul class="info-list">
         <li>Each training module will take you through a series of situations. You can pause at any time, and skip forwards or backwards using the arrows, or the section menu on the toolbar.</li>
@@ -33,8 +34,16 @@ export default {
 };
 </script>
 
-<style scoped>
-.info-list li {
-  margin-bottom: 1.5rem;
+<style>
+.page-subtitle {
+  font-size: 1.125rem;
+  color: #64748b;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.isDark .page-subtitle {
+  color: #cbd5e1;
 }
 </style>

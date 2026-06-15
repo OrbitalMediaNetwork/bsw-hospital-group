@@ -7,29 +7,34 @@
     font-weight: normal;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    line-height: 1.5;
+    line-height: 1.6;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "rlig" 1, "calt" 1;
 }
 
 .app-container {
     min-height: 100vh;
     padding-left: 1rem;
     padding-right: 1rem;
-    transition: color 250ms, background-color 250ms;
+    transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1), background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
     color: $clr-black;
-    background-color: white;
-
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
     padding-bottom: 190px;
+    
     @include tablet {
         padding-bottom: 140px;
     }
 
     &.isDark {
-        color: white;
-        background-color: #1f201f;
+        color: $clr-grey;
+        background: linear-gradient(135deg, $clr-dark-bg 0%, #020617 100%);
     }
 }
 
@@ -43,6 +48,10 @@ body {
     font-weight: 600 !important;
 }
 
+.fw-700 {
+    font-weight: 700 !important;
+}
+
 .footer {
     text-align: center;
 }
@@ -51,4 +60,9 @@ body {
     text-decoration: underline;
     color: inherit;
     font-weight: 600 !important;
+    transition: opacity 200ms ease;
+    
+    &:hover {
+        opacity: 0.8;
+    }
 }

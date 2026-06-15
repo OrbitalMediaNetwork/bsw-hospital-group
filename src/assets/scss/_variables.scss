@@ -1,17 +1,38 @@
-// Custom colours
-$clr-primary: #1b1b1b;
-$clr-primary-dark: #1b1b1b;
-$clr-black: #1f1f1f;
-$clr-black-2: #1b1b1b;
+// Modern Color System
+$clr-primary: #6366f1;
+$clr-primary-dark: #4f46e5;
+$clr-primary-light: #818cf8;
+$clr-black: #0f172a;
+$clr-black-2: #1e293b;
 
-$clr-grey: #f6f6f6;
-$clr-grey-2: #c4c4c4;
-$clr-grey-3: #eaeaea;
-$clr-grey-4: #414141;
-$clr-grey-5: #2d2d2d;
-$box-shadow: 0px 3px 6px #0000000a;
+$clr-grey: #f8fafc;
+$clr-grey-2: #e2e8f0;
+$clr-grey-3: #cbd5e1;
+$clr-grey-4: #64748b;
+$clr-grey-5: #334155;
+
+// Accent colors
+$clr-success: #10b981;
+$clr-danger: #ef4444;
+$clr-warning: #f59e0b;
+
+// Shadows and effects
+$box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+$box-shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+$shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+
+// Dark mode colors
+$clr-dark-bg: #0f172a;
+$clr-dark-surface: #1e293b;
+$clr-dark-border: #334155;
+
+// Glassmorphism
+$glass-bg: rgba(255, 255, 255, 0.85);
+$glass-border: rgba(255, 255, 255, 0.18);
+$glass-dark-bg: rgba(30, 41, 59, 0.85);
+$glass-dark-border: rgba(255, 255, 255, 0.1);
 
 // Bulma overrides
 $primary: $clr-primary;
-$family-sans-serif: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+$family-sans-serif: "Inter", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";

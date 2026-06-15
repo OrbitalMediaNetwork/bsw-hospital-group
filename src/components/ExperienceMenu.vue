@@ -1,53 +1,24 @@
 <template>
-  <div class="columns is-mobile">
-    <div
-      v-for="item in videoStore.experiences"
-      :key="item.title"
-      class="column mx-auto"
-      style="max-width: 600px"
-    >
-      <button
+  <div class="experience-menu__grid">
+    <TransitionGroup name="experience-stagger" tag="div" 
+        v-for="item in videoStore.experiences"
+        :key="item.slug"
         @click.prevent="handleSelectExperience(item)"
         class="experience__button"
       >
-        <img class="experience__img" :src="item.thumbURL" alt="" />
-        <span>{{ item.title }}</span>
-      </button>
-    </div>
+        <img class="experience__img" :src="item.thumbURL" :alt="item.title" />
+        <p class="experience__title">{{ item.title }}</p>
+        <p v-if="item.description" class="experience__description">{{ item.description }}</p>
+    </TransitionGroup>
   </div>
 </template>
 
 <script>
 import { mapStores } from "pinia";
 import { useVideoStore } from "../stores/videos";
-// import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
-// Import Swiper Vue.js components
-import { Swiper, SwiperSlide } from "swiper/vue";
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
 
 export default {
   name: "ExperienceMenu",
-
-  components: {
-    Swiper,
-    SwiperSlide,
-  },
-
-  data() {
-    return {
-      swiperBreakpoints: {
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 30,
-        },
-      },
-    };
-  },
 
   computed: {
     ...mapStores(useVideoStore),
@@ -58,19 +29,35 @@ export default {
       this.$router.push({ name: "experience", params: { slug: exp.slug } });
     },
   },
-
-  setup() {
-    const onSwiper = (swiper) => {
-      console.log(swiper);
-    };
-    const onSlideChange = () => {
-      console.log("slide change");
-    };
-    return {
-      onSwiper,
-      onSlideChange,
-      modules: [Navigation, Pagination, Scrollbar, A11y],
-    };
-  },
 };
 </script>
+
+<style>
+.experience__description {
+  font-size: 0.875rem;
+  color: #64748b;
+  padding: 0 1rem 1rem;
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.isDark .experience__description {
+  color: #cbd5e1;
+}
+
+.experience-stagger-move {
+  transition: transform 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.experience-stagger-enter-active,
+.experience-stagger-leave-active {
+  transition: all 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.experience-stagger-enter-from,
+.experience-stagger-leave-to {
+  opacity: 0;
+  transform: translateY(20px) scale(0.95);
+}
+</style>

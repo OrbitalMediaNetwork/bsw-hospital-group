@@ -1,8 +1,9 @@
 export const experiences = [
     {
-        title: "Epistemic Exploitation ",
+        title: "Epistemic Exploitation",
         slug: "epistemic-exploitation",
         thumbURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/Epistemic+Exploitation+Image.png",
+        description: "Learn to recognize and address situations where someone's lived experience is exploited or dismissed in workplace interactions.",
         videos: [
             {
                 name: "Initial Disclosure Introduction",
@@ -59,7 +60,7 @@ export const experiences = [
                 name: "The Retelling Loop Introduction",
                 type: "narrative",
                 videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/gina-avatar/GINA+SCENE+2+INTRO.mp4",
+                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/scene-1/SCENE+1/The+Retelling+Loop+Introduction+NEW.mp4",
                 autoPlayNext: true,
             },
 
@@ -183,6 +184,7 @@ export const experiences = [
         title: "Microaggression",
         slug: "microaggression",
         thumbURL: "/images/micro-thumbnail.png",
+        description: "Understand microaggressions, their impact, and learn effective strategies for recognition and response in professional settings.",
         videos: [
             {
                 name: "Introduction",
@@ -307,6 +309,7 @@ export const experiences = [
         title: "Allyship",
         slug: "allyship",
         thumbURL: "/images/allyship-thumbnail.png",
+        description: "Develop skills to become an effective ally by learning key concepts, recognizing scenarios, and taking appropriate action.",
         videos: [
             {
                 name: "Introduction",
@@ -550,6 +553,7 @@ export const experiences = [
         title: "Conflict Resolution",
         slug: "conflict-resolution",
         thumbURL: "/images/cr-thumbnail.png",
+        description: "Master positive approaches to conflict resolution and learn to navigate workplace disagreements constructively.",
         videos: [
             {
                 name: "Introduction",

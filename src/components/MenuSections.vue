@@ -9,22 +9,24 @@
                 Close
             </button>
         </div>
-        <div
-            v-for="video in this.videoStore.currentExperience.videos"
-            :key="video.name"
-            class="menu-sections__row"
-        >
-            <button
-                @click="$emit('selectVideo', video)"
-                class="menu-sections__item"
-                :disabled="isCurrentVideo(video)"
+        <TransitionGroup name="section-item" tag="div">
+            <div
+                v-for="video in videoStore.currentExperience.videos"
+                :key="video.name"
+                class="menu-sections__row"
             >
-                {{ video.name }}
+                <button
+                    @click="$emit('selectVideo', video)"
+                    class="menu-sections__item"
+                    :disabled="isCurrentVideo(video)"
+                >
+                    {{ video.name }}
 
-                <icon-waveform v-if="isCurrentVideo(video)"></icon-waveform>
-                <icon-arrow-right v-else></icon-arrow-right>
-            </button>
-        </div>
+                    <icon-waveform v-if="isCurrentVideo(video)"></icon-waveform>
+                    <icon-arrow-right v-else></icon-arrow-right>
+                </button>
+            </div>
+        </TransitionGroup>
     </div>
 </template>
 
@@ -36,8 +38,6 @@ import IconWaveform from "./icons/IconWaveform.vue";
 import IconCross from "./icons/IconCross.vue";
 
 export default {
-    props: {},
-
     components: {
         IconArrowRight,
         IconWaveform,
@@ -55,3 +55,20 @@ export default {
     },
 };
 </script>
+
+<style scoped>
+.section-item-move {
+    transition: transform 250ms ease;
+}
+
+.section-item-enter-active,
+.section-item-leave-active {
+    transition: all 200ms ease;
+}
+
+.section-item-enter-from,
+.section-item-leave-to {
+    opacity: 0;
+    transform: translateX(-20px);
+}
+</style>

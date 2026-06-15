@@ -1,8 +1,6 @@
 <template>
-    <div class="columns is-multiline">
-        <div
-            class="is-flex is-align-items-center is-justify-content-center column p-0 is-full is-half-desktop"
-        >
+    <div class="menu-controls columns is-multiline">
+        <div class="is-flex is-align-items-center is-justify-content-center column p-0 is-full is-half-desktop">
             <button
                 class="menu__item menu__btn menu__item--playback"
                 @click="$emit('skipBack')"
@@ -24,9 +22,7 @@
                 <icon-forward></icon-forward>
             </button>
 
-            <div
-                class="menu__item menu__item--playback is-flex is-align-items-center is-justify-content-center"
-            >
+            <div class="menu__item menu__item--playback is-flex is-align-items-center is-justify-content-center">
                 <icon-volume class="mr-2"></icon-volume>
                 <input
                     class="menu__volume"
@@ -44,15 +40,12 @@
             </div>
         </div>
 
-        <div
-            class="is-flex is-align-items-center is-justify-content-center ml-auto column p-0 is-full is-half-desktop"
-        >
+        <div class="is-flex is-align-items-center is-justify-content-center ml-auto column p-0 is-full is-half-desktop">
             <button
                 class="menu__item menu__btn menu__item--with-text"
                 @click="$emit('toggleDarkMode')"
             >
                 <icon-dark-mode></icon-dark-mode>
-
                 <span>{{ isDarkMode ? "Light Mode" : "Dark Mode" }}</span>
             </button>
 
@@ -65,13 +58,15 @@
                 <span>Captions</span>
             </button>
 
-            <menu-subtitles
-                v-if="showSubtitleMenu"
-                @toggleSubsMenu="toggleSubsMenu"
-                @disableSubtitles="disableSubtitles"
-                @selectLanguage="(index) => selectLanguage(index)"
-                :tracks="tracks"
-            ></menu-subtitles>
+            <Transition name="dropdown">
+                <menu-subtitles
+                    v-if="showSubtitleMenu"
+                    @toggleSubsMenu="toggleSubsMenu"
+                    @disableSubtitles="disableSubtitles"
+                    @selectLanguage="(index) => selectLanguage(index)"
+                    :tracks="tracks"
+                ></menu-subtitles>
+            </Transition>
 
             <button
                 class="menu__item menu__btn menu__item--with-text"
@@ -82,11 +77,13 @@
                 <span>Sections</span>
             </button>
 
-            <menu-sections
-                v-if="showSectionsMenu"
-                @selectVideo="(video) => selectSectionsVideo(video)"
-                @toggleSectionsMenu="toggleSectionsMenu"
-            ></menu-sections>
+            <Transition name="dropdown">
+                <menu-sections
+                    v-if="showSectionsMenu"
+                    @selectVideo="(video) => selectSectionsVideo(video)"
+                    @toggleSectionsMenu="toggleSectionsMenu"
+                ></menu-sections>
+            </Transition>
 
             <button
                 class="menu__item menu__btn menu__item--with-text"

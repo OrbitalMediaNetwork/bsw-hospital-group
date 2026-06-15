@@ -1,22 +1,27 @@
 <template>
   <div class="page-wrapper">
-    <div>
-      <h1 class="welcome-title">Select Your Organisation</h1>
+    <div class="welcome-content">
+      <h1 class="welcome-title">Welcome to EDI Training</h1>
+      <p class="page-subtitle">Equity, Diversity & Inclusion learning modules for professional development</p>
 
-      <div v-if="routeMessage" class="route-message">
-        {{ routeMessage }}
-      </div>
-      
-      <div class="client-selection">
-        <div
-          v-for="client in clients"
-          :key="client.id"
-          :class="['client-card', { 'client-card--selected': selectedClient && selectedClient.id === client.id }]"
-          @click="selectClient(client)"
-        >
-          <img :src="client.logo" :alt="client.name" class="client-logo" />
-          <h2 class="client-name">{{ client.name }}</h2>
+      <Transition name="fade-slide" mode="out-in">
+        <div v-if="routeMessage" class="route-message">
+          {{ routeMessage }}
         </div>
+      </Transition>
+
+      <div class="client-selection">
+        <TransitionGroup name="stagger" tag="div" 
+            v-for="client in clients"
+            :key="client.id"
+            :class="['client-card', { 'client-card--selected': selectedClient && selectedClient.id === client.id }]"
+            @click="selectClient(client)"
+          >
+            <img :src="client.logo" :alt="client.name" class="client-logo" />
+            <h2 class="client-name">{{ client.name }}</h2>
+            <p v-if="client.description" class="client-description">{{ client.description }}</p>
+          
+        </TransitionGroup>
       </div>
 
       <NavigationButtons 
@@ -61,7 +66,6 @@ export default {
       if (this.$route.query.message) {
         this.$router.replace({ path: '/', query: {} });
       }
-      // Store the selected client in the video store
       const videoStore = useVideoStore();
       videoStore.setSelectedClient(client);
     },
@@ -70,27 +74,39 @@ export default {
 </script>
 
 <style scoped>
-.route-message {
-  max-width: 600px;
-  margin: 1rem auto 2rem;
-  padding: 1rem;
-  border-radius: 8px;
-  background-color: #fff3cd;
-  border: 1px solid #ffeeba;
-  color: #856404;
+.welcome-content {
   text-align: center;
-  font-size: 1rem;
-}
-</style>
-
-<style scoped>
-.client-card--selected {
-  border: 3px solid #007bff;
-  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
-  transform: translateY(-3px);
 }
 
-.client-card--selected:hover {
-  transform: translateY(-3px);
+.fade-slide-enter-active,
+.fade-slide-leave-active {
+  transition: all 250ms ease;
+}
+
+.fade-slide-enter-from,
+.fade-slide-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.fade-slide-enter-to,
+.fade-slide-leave-from {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.stagger-move {
+  transition: transform 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.stagger-enter-active,
+.stagger-leave-active {
+  transition: all 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.stagger-enter-from,
+.stagger-leave-to {
+  opacity: 0;
+  transform: translateY(30px) scale(0.9);
 }
 </style>

@@ -3,6 +3,7 @@ export const clients = [
     id: 'bsw',
     name: 'BSW Hospital Group',
     logo: 'https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/BSW+Hospitals+Group_Stacked+Logo_CMYK_150dpi.jpg',
+    description: 'Healthcare EDI training modules',
     experiences: [
       {
         title: "Epistemic Exploitation",
@@ -24,19 +25,19 @@ export const clients = [
   {
     id: 'client-b',
     name: 'Client B',
-    logo: '/images/client-b-logo.png', // Placeholder - you'll need to add this image
+    logo: '/images/client-b-logo.png',
+    description: '',
     experiences: [
       {
         title: "Client B Experience 1",
         slug: "client-b-exp1",
-        thumbURL: "/images/client-b-exp1-thumb.png" // Placeholder
+        thumbURL: "/images/client-b-exp1-thumb.png"
       },
       {
         title: "Client B Experience 2", 
         slug: "client-b-exp2",
-        thumbURL: "/images/client-b-exp2-thumb.png" // Placeholder
+        thumbURL: "/images/client-b-exp2-thumb.png"
       }
     ]
   }
-  // More clients can be added here
 ];

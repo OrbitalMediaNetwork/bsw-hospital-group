@@ -1,10 +1,31 @@
 .popups {
   position: absolute;
-  top: 0.5rem;
+  top: 0.75rem;
   right: 1rem;
-  height: 44px;
+  display: flex;
+  gap: 0.5rem;
+  z-index: 10;
 }
 
-.popups a {
-  margin: 0rem 0.25rem;
+.popups .button {
+  margin: 0;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(226, 232, 240, 0.5);
+  transition: all 250ms ease;
+}
+
+.popups .button:hover {
+  transform: scale(1.05);
+  background: white;
+}
+
+.isDark .popups .button {
+  background: rgba(51, 65, 85, 0.9);
+  border-color: rgba(100, 116, 139, 0.3);
+}
+
+.isDark .popups .button:hover {
+  background: #334155;
 }
