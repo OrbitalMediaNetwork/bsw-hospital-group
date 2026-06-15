@@ -6,19 +6,21 @@
             </p>
         </div>
 
-        <div
-            v-for="answer in filteredAnswers"
-            :key="answer.id"
-            class="column is-half py-3 menu__item--borders"
-            :class="{ 'is-offset-one-quarter': hasAnsweredIncorrect }"
-        >
-            <button
-                class="menu__item menu__btn menu__item--with-text fw-600 is-flex is-flex-direction-row is-align-items-center"
-                @click="$emit('selectAnswer', answer)"
+        <div class="flex-center">
+            <div
+                v-for="answer in filteredAnswers"
+                :key="answer.id"
+                class="column py-3 menu__item--borders"
+                :class="{ 'is-offset-one-quarter': hasAnsweredIncorrect }"
             >
-                {{ answer.name }}
-                <icon-arrow-right class="ml-2"></icon-arrow-right>
-            </button>
+                <button
+                    class="menu__item menu__btn menu__item--with-text fw-600 is-flex is-flex-direction-row is-align-items-center"
+                    @click="$emit('selectAnswer', answer)"
+                >
+                    {{ answer.name }}
+                    <icon-arrow-right class="ml-2"></icon-arrow-right>
+                </button>
+            </div>
         </div>
     </div>
 </template>

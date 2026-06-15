@@ -109,3 +109,8 @@
   opacity: 0.5;
   pointer-events: none;
 }
+
+.flex-center {
+  display: flex !important;
+  justify-content: center !important;
+}
