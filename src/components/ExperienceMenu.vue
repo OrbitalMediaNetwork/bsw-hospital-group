@@ -5,11 +5,13 @@
         :key="item.slug"
         @click.prevent="handleSelectExperience(item)"
         class="experience__button"
+        :class="{ 'experience__button--disabled': !item.videos || item.videos.length === 0 }"
       >
         <img class="experience__img" :src="item.thumbURL" :alt="item.title" />
         <p class="experience__title">{{ item.title }}</p>
         <p v-if="item.description" class="experience__description">{{ item.description }}</p>
-    </TransitionGroup>
+        <p v-if="!item.videos || item.videos.length === 0" class="experience__coming-soon">Coming soon</p>
+      </TransitionGroup>
   </div>
 </template>
 
@@ -26,6 +28,7 @@ export default {
 
   methods: {
     handleSelectExperience(exp) {
+      if (!exp.videos || exp.videos.length === 0) return;
       const client = this.videoStore.selectedClient ? this.videoStore.selectedClient.id : undefined;
       this.$router.push({ name: "experience", params: { slug: exp.slug, client } });
     },
@@ -45,6 +48,25 @@ export default {
 
 .isDark .experience__description {
   color: #cbd5e1;
+}
+
+.experience__coming-soon {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  font-weight: 500;
+  padding: 0 1rem 1rem;
+  margin: 0;
+  font-style: italic;
+}
+
+.isDark .experience__coming-soon {
+  color: #64748b;
+}
+
+.experience__button--disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 .experience-stagger-move {

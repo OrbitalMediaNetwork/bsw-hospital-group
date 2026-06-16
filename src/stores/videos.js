@@ -17,11 +17,9 @@ export const useVideoStore = defineStore("video", {
     getters: {
         // Get experiences for the selected client
         clientExperiences() {
-            if (!this.selectedClient) return [];
+            if (!this.selectedClient) return []
             
-            // Map the client's experience keys to actual experience data
             return this.selectedClient.experiences.map(expItem => {
-                // Find the actual experience data by slug
                 const experienceData = experiences.find(exp => exp.slug === expItem.slug);
                 if (experienceData) {
                     return {
@@ -31,8 +29,13 @@ export const useVideoStore = defineStore("video", {
                         videos: experienceData.videos
                     };
                 }
-                return null;
-            }).filter(Boolean); // Remove null entries
+                return {
+                    title: expItem.title,
+                    slug: expItem.slug,
+                    thumbURL: expItem.thumbURL,
+                    videos: []
+                };
+            });
         }
     },
 
