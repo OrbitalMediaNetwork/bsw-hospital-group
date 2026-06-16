@@ -288,7 +288,7 @@ export default {
             this.isEnded = true;
 
             if (this.isFinal) {
-                this.$router.push({ name: "completed", params: { slug: this.$route.params.slug } });
+                this.$router.push({ name: "completed", params: { slug: this.$route.params.slug, client: this.$route.params.client } });
             } else if (this.videoStore.currentVideo.autoPlayNext) {
                 this.selectVideo(
                     this.videoStore.currentExperience.videos[
