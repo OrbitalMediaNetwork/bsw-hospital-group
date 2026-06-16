@@ -3,6 +3,7 @@ import WelcomeView from '../views/WelcomeView.vue'
 import InstructionsView from '../views/InstructionsView.vue'
 import HomeView from '../views/HomeView.vue'
 import VideoView from '../views/VideoView.vue'
+import CompletedView from '../views/CompletedView.vue'
 import NotFoundView from '../views/NotFoundView.vue'
 import { useVideoStore } from '../stores/videos'
 
@@ -55,6 +56,12 @@ const router = createRouter({
       path: '/experience/:slug',
       name: 'experience',
       component: VideoView,
+      beforeEnter: validateExperienceRoute
+    },
+    {
+      path: '/completed/:slug',
+      name: 'completed',
+      component: CompletedView,
       beforeEnter: validateExperienceRoute
     },
     {

@@ -277,12 +277,9 @@ export default {
         handleEnded() {
             this.isEnded = true;
 
-            // Check if this is the final video
             if (this.isFinal) {
-                this.$router.push("/experiences");
-            }
-
-            if (this.videoStore.currentVideo.autoPlayNext) {
+                this.$router.push({ name: "completed", params: { slug: this.$route.params.slug } });
+            } else if (this.videoStore.currentVideo.autoPlayNext) {
                 this.selectVideo(
                     this.videoStore.currentExperience.videos[
                         this.videoStore.videoIndex + 1

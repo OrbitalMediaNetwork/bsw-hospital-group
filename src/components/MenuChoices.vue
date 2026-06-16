@@ -4,20 +4,20 @@
             <p class="menu__item">Which would you like to see?</p>
         </div>
 
-        <div
-            v-for="video in filteredChoices"
-            :key="video.id"
-            class="column is-half pb-0"
-        >
-            <button
-                class="menu__item menu__btn"
-                @click="$emit('selectAnswer', video)"
-            >
-                {{ video.name }}
-            </button>
+        <div class="column is-12 pb-0">
+            <div class="choices-list">
+                <button
+                    v-for="video in filteredChoices"
+                    :key="video.id"
+                    class="menu__item menu__btn choice-item"
+                    @click="$emit('selectAnswer', video)"
+                >
+                    {{ video.name }}
+                </button>
+            </div>
         </div>
 
-        <div v-if="hasAnsweredCorrect" class="column is-half pb-0">
+        <div v-if="hasAnsweredCorrect" class="column is-12 pb-0">
             <button class="menu__item menu__btn" @click="$emit('nextVideo')">
                 Finishing Up
             </button>

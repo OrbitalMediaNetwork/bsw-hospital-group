@@ -21,23 +21,5 @@ export const clients = [
         thumbURL: "/images/cr-thumbnail.png"
       }
     ]
-  },
-  {
-    id: 'client-b',
-    name: 'Client B',
-    logo: '/images/client-b-logo.png',
-    description: '',
-    experiences: [
-      {
-        title: "Client B Experience 1",
-        slug: "client-b-exp1",
-        thumbURL: "/images/client-b-exp1-thumb.png"
-      },
-      {
-        title: "Client B Experience 2", 
-        slug: "client-b-exp2",
-        thumbURL: "/images/client-b-exp2-thumb.png"
-      }
-    ]
   }
 ];
