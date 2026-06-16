@@ -37,8 +37,14 @@ export default {
     },
 
     methods: {
+        clientPath() {
+            return this.videoStore.selectedClient ? `/${this.videoStore.selectedClient.id}` : '';
+        },
+
         backToHome() {
-            this.$router.push(this.validationBackRoute.path);
+            const base = this.validationBackRoute.path;
+            const clientPrefix = this.clientPath();
+            this.$router.push(clientPrefix ? `${clientPrefix}${base}` : base);
         },
 
         redirectToHome(message) {

@@ -2,14 +2,14 @@
   <div class="navigation-buttons" :class="{ disabled: isDisabled }">
     <router-link 
       v-if="previousRoute" 
-      :to="previousRoute.path" 
+      :to="resolvedRoute(previousRoute)" 
       class="btn btn-prev"
     >
       {{ previousRoute.label }}
     </router-link>
     <router-link 
       v-if="nextRoute" 
-      :to="nextRoute.path" 
+      :to="resolvedRoute(nextRoute)" 
       :class="['btn', 'btn-next', { 'start-experience': isStartExperience }]"
     >
       {{ nextRoute.label }}
@@ -18,6 +18,8 @@
 </template>
 
 <script>
+import { useVideoStore } from "../stores/videos";
+
 export default {
   name: "NavigationButtons",
 
@@ -48,6 +50,21 @@ export default {
     },
     isDisabled() {
       return this.disabled;
+    }
+  },
+
+  methods: {
+    resolvedRoute(route) {
+      const videoStore = useVideoStore();
+      if (route.client === false || !videoStore.selectedClient) {
+        return route.path;
+      }
+      const clientPath = `/${videoStore.selectedClient.id}`;
+      const path = route.path.startsWith('/') ? route.path : `/${route.path}`;
+      if (path === '/' || path === '') {
+        return clientPath || '/';
+      }
+      return `${clientPath}${path}`;
     }
   }
 };

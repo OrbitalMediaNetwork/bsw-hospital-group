@@ -26,7 +26,8 @@ export default {
 
   methods: {
     handleSelectExperience(exp) {
-      this.$router.push({ name: "experience", params: { slug: exp.slug } });
+      const client = this.videoStore.selectedClient ? this.videoStore.selectedClient.id : undefined;
+      this.$router.push({ name: "experience", params: { slug: exp.slug, client } });
     },
   },
 };

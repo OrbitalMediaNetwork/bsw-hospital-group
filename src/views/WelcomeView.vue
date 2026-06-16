@@ -68,6 +68,7 @@ export default {
       }
       const videoStore = useVideoStore();
       videoStore.setSelectedClient(client);
+      this.$router.replace({ name: 'welcome', params: { client: client.id } });
     },
   },
 };

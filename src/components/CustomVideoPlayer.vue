@@ -12,7 +12,7 @@
         <template v-slot="{ player, state }">
             <RouterLink
                 class="button is-outlined mb-5 mt-2 button__home test"
-                to="/experiences"
+                :to="resolvedHomeRoute"
             >
                 <icon-home></icon-home>
             </RouterLink>
@@ -182,8 +182,13 @@ export default {
     computed: {
         ...mapStores(useVideoStore),
 
+        resolvedHomeRoute() {
+            const client = this.videoStore.selectedClient
+            if (!client) return "/experiences"
+            return { name: "experiences", params: { client: client.id } }
+        },
+
         filteredVideos() {
-            // Remove current video from button options
             return this.videoStore.currentExperience.videos.filter((video) => {
                 return video.videoURL !== this.videoStore.currentVideo.videoURL;
             });
@@ -269,6 +274,11 @@ export default {
     },
 
     methods: {
+        clientHomeRoute() {
+            const client = this.videoStore.selectedClient
+            const base = client ? `/${client.id}/experiences` : '/experiences'
+            return { name: 'experiences', params: { client: client ? client.id : undefined } }
+        },
         handleMounted(payload) {
             this.state = payload.state;
             this.player = payload.player;
