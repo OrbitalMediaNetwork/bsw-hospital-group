@@ -1,183 +1,158 @@
 export const experiences = [
     {
-        title: "Epistemic Exploitation",
+        title: "The Initial Disclosure",
         slug: "epistemic-exploitation",
         thumbURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/Epistemic+Exploitation+Image.png",
         description: "Learn to recognize and address situations where someone's lived experience is exploited or dismissed in workplace interactions.",
         videos: [
             {
-                name: "Initial Disclosure Introduction",
+                name: "Introduction",
                 type: "narrative",
                 videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/gina-avatar/OPENING+GINA.mp4",
+                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/GINA+AVATARS/Epistemic+Exploitation+Introduction.mp4",
                 autoPlayNext: true,
             },
 
 
             {
                 name: "Initial Disclosure Example",
-                type: "question",
+                type: "quiz",
                 videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/scene-1/SCENE+1/SCENE+1+OPENING.mp4",
+                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260628_WGF_OrbitalMedia_EpistemicExploitation_SceneOne_Combined_v1.mp4",
                 autoPlayNext: false,
                 question: "How does Emma respond?",
                 answers: [
                     {
-                        name: "A) Exploitation (Shifts burden onto David)",
+                        name: "Option A) Help Me Understand",
                         isCorrect: false,
                         hasSelected: false,
-                        videoURL:
-                            "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/scene-1/SCENE+1/SCENE+1+OPTION+A.mp4",
-                        autoPlayNext: false,
                     },
                     {
-                        name: "B) Dismissive (Minimises harm, no validation)",
+                        name: "Option B) Patients are people too",
                         isCorrect: false,
                         hasSelected: false,
-                        videoURL:
-                            "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/scene-1/SCENE+1/SCENE+1+OPTION+B.mp4",
-                        autoPlayNext: false,
                     },
                     {
-                        name: "C) Supportive (Validates, removes burden)",
+                        name: "Option C) Care Without Compromise",
                         isCorrect: true,
                         hasSelected: false,
-                        videoURL:
-                            "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/scene-1/SCENE+1/SCENE+1+OPTION+C.mp4",
-                        autoPlayNext: true,
                     },
                 ],
             },
+
+            {
+                name: "Initial Disclosure Example",
+                type: "narrative",
+                videoURL:
+                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260629_WGF_OrbitalMedia_EpistemicExploitation_SceneOne_Correct+Option+With+Title.mp4",
+                autoPlayNext: true,
+            },
+
+            
             {
                 name: "Initial Disclosure Conclusion",
                 type: "narrative",
                 videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/gina-avatar/SCENE+1+GINA+REFLECTION.mp4",
+                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/GINA+AVATARS/SCENE+1+GINA+REFLECTION.mp4",
                 autoPlayNext: true,
             },
+
+
+
+
+
+
 
             {
                 name: "The Retelling Loop Introduction",
                 type: "narrative",
                 videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/scene-1/SCENE+1/The+Retelling+Loop+Introduction+NEW.mp4",
+                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/GINA+AVATARS/GINA+SCENE+2+INTRO.mp4",
                 autoPlayNext: true,
             },
 
             {
                 name: "The Retelling Loop Example",
-                type: "question",
-                videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/scene-2/SCENE+2/SCENE+2+OPENING.mp4",
-                autoPlayNext: false,
-                question: "How is the process designed?",
-                answers: [
-                    {
-                        name: "Option A – Systemic exploitation",
-                        isCorrect: false,
-                        hasSelected: false,
-                        videoURL:
-                            "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/scene-2/SCENE+2/SCENE+2+OPTION+A.mp4",
-                        autoPlayNext: false,
-                    },
-                    {
-                        name: "Option B – Slightly better",
-                        isCorrect: false,
-                        hasSelected: false,
-                        videoURL:
-                            "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/scene-2/SCENE+2/SCENE+2+OPTION+B.mp4",
-                        autoPlayNext: false,
-                    },
-                    {
-                        name: "Option C – Best practice",
-                        isCorrect: true,
-                        hasSelected: false,
-                        videoURL:
-                            "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/scene-2/SCENE+2/SCENE+2+OPTION+C.mp4",
-                        autoPlayNext: true,
-                    },
-                ],
-            },
-            
-            {
-                name: "The Retelling Loop Conclusion",
                 type: "quiz",
                 videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/gina-avatar/SCENE+2+REFLECTION.mp4",
+                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260628_WGF_OrbitalMedia_EpistemicExploitation_SceneTwo_Combined.mp4",
                 autoPlayNext: false,
-                question: "Which of the following is an example of epistemic exploitation?",
+                question: "How is the process designed – option",
                 answers: [
                     {
-                        name: "A. Encouraging someone to report discrimination",
+                        name: "Option A) OH meeting",
                         isCorrect: false,
                         hasSelected: false,
                     },
                     {
-                        name: "B. Asking someone to repeatedly explain their experience multiple times",
+                        name: "Option B) HR meeting",
                         isCorrect: true,
-                        hasSelected: false,
-                    },
-                    {
-                        name: "C. Providing written guidance on discrimination policies",
-                        isCorrect: false,
-                        hasSelected: false,
-                    },
-                    {
-                        name: "D. Escalating an issue to HR",
-                        isCorrect: false,
                         hasSelected: false,
                     },
                 ],
             },
 
+            {
+                name: "The Retelling Loop Example",
+                type: "narrative",
+                videoURL:
+                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260629_WGF_OrbitalMedia_EpistemicExploitation_SceneTwo_OptionB+With+Title.mp4",
+                autoPlayNext: true,
+            },
+
+            {
+                name: "The Retelling Loop Conclusion",
+                type: "narrative",
+                videoURL:
+                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/GINA+AVATARS/SCENE+2+REFLECTION.mp4",
+                autoPlayNext: true,
+            },
+
+
+
             {  name: "Team Conversation Introduction",
                 type: "narrative",
                 videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/gina-avatar/GINA+SCENE+3+INTRO.mp4",
+                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/GINA+AVATARS/GINA+SCENE+3+INTRO.mp4",
                 autoPlayNext: true,
             },
 
             {
                 name: "Team Conversation Example",
-                type: "question",
+                type: "quiz",
                 videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/scene-3/SCENE+3+OPENING.mp4",
+                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260628_WGF_OrbitalMedia_EpistemicExploitation_SceneThree_Complete.mp4",
                 autoPlayNext: false,
                 question: "How do colleagues respond?",
                 answers: [
                     {
-                        name: "Option A – Reinforce pressure",
+                        name: "Option A – Look to person with lived experience",
                         isCorrect: false,
                         hasSelected: false,
-                        videoURL:
-                            "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/scene-3/SCENE+3+OPTION+A.mp4",
-                        autoPlayNext: false,
                     },
                     {
-                        name: "Option B – Passive silence",
-                        isCorrect: false,
-                        hasSelected: false,
-                        videoURL:
-                            "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/scene-3/SCENE+3+OPTION+B.mp4",
-                        autoPlayNext: false,
-                    },
-                    {
-                        name: "Option C – Ally steps in",
+                        name: "Option B – Share the responsibility",
                         isCorrect: true,
                         hasSelected: false,
-                        videoURL:
-                            "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/scene-3/SCENE+3+OPTION+C.mp4",
-                        autoPlayNext: true,
                     },
                 ],
             },
             {
+                name: "Team Conversation Correct",
+                type: "narrative",
+                videoURL:
+                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260629_WGF_OrbitalMedia_EpistemicExploitation_SceneThree_OptionB+With+Title.mp4",
+                autoPlayNext: true,
+            },
+
+            {
                 name: "Team Conversation Conclusion",
                 type: "narrative",
                 videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/gina-avatar/GINA+FINAL+CLOSE.mp4",
-                autoPlayNext: false,
+                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/GINA+AVATARS/GINA+FINAL+CLOSE.mp4",
+                autoPlayNext: true,
             },
+
         ],
     },
     {
