@@ -15,7 +15,7 @@ export const experiences = [
 
 
             {
-                name: "Initial Disclosure Example",
+                name: "Initial Disclosure Quiz",
                 type: "quiz",
                 videoURL:
                     "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260628_WGF_OrbitalMedia_EpistemicExploitation_SceneOne_Combined_v1.mp4",
@@ -41,7 +41,7 @@ export const experiences = [
             },
 
             {
-                name: "Initial Disclosure Example",
+                name: "Initial Disclosure Correct Answer",
                 type: "narrative",
                 videoURL:
                     "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260629_WGF_OrbitalMedia_EpistemicExploitation_SceneOne_Correct+Option+With+Title.mp4",
@@ -93,7 +93,7 @@ export const experiences = [
             },
 
             {
-                name: "The Retelling Loop Example",
+                name: "The Retelling Loop Correct",
                 type: "narrative",
                 videoURL:
                     "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260629_WGF_OrbitalMedia_EpistemicExploitation_SceneTwo_OptionB+With+Title.mp4",
