@@ -63,7 +63,7 @@ export const experiences = [
             {
                 name: "The Retelling Loop Example",
                 type: "quiz",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260628_WGF_OrbitalMedia_EpistemicExploitation_SceneTwo_Combined.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v3/20260702_WGF_OrbitalMedia_EpistemicExploitation_SceneTwo_Complete+With+Title.mp4",
                 autoPlayNext: false,
                 question: "Which outcome would shrink the retelling loop?",
                 answers: [
