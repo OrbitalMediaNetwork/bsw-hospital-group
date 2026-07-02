@@ -48,7 +48,7 @@
                     ></menu-answers>
 
                     <menu-quiz
-                        v-else-if="isQuiz && !hasAnsweredCorrect"
+                        v-else-if="isQuiz && !hasAnsweredCorrect && !playingAnswerVideo"
                         :question="
                             videoStore.currentExperience.videos[
                                 videoStore.videoIndex
@@ -60,6 +60,7 @@
                             ].answers
                         "
                         :hasAnsweredIncorrect="hasAnsweredIncorrect"
+                        @selectAnswer="playAnswerVideo"
                         @playNextVideo="playNextVideo"
                     ></menu-quiz>
 
@@ -176,6 +177,7 @@ export default {
             isMenuShown: true,
             hasAnsweredCorrect: false,
             hasAnsweredIncorrect: false,
+            playingAnswerVideo: false,
         };
     },
 
@@ -289,7 +291,23 @@ export default {
 
             if (this.isFinal) {
                 this.$router.push({ name: "completed", params: { slug: this.$route.params.slug, client: this.$route.params.client } });
-            } else if (this.videoStore.currentVideo.autoPlayNext) {
+                return;
+            }
+
+            if (this.playingAnswerVideo) {
+                if (this.videoStore.currentVideo.isCorrect) {
+                    this.hasAnsweredCorrect = true;
+                    this.hasAnsweredIncorrect = false;
+                    this.playNextVideo();
+                } else {
+                    this.hasAnsweredIncorrect = true;
+                    this.hasAnsweredCorrect = false;
+                }
+                this.playingAnswerVideo = false;
+                return;
+            }
+
+            if (this.videoStore.currentVideo.autoPlayNext) {
                 this.selectVideo(
                     this.videoStore.currentExperience.videos[
                         this.videoStore.videoIndex + 1
@@ -390,6 +408,12 @@ export default {
             this.isEnded = false;
             this.hasAnsweredCorrect = false;
             this.hasAnsweredIncorrect = false;
+        },
+
+        playAnswerVideo(answer) {
+            this.videoStore.currentVideo = answer;
+            this.isEnded = false;
+            this.playingAnswerVideo = true;
         },
 
         playNextVideo() {

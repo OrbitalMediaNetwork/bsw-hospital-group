@@ -1,26 +1,24 @@
 export const experiences = [
     {
-        title: "The Initial Disclosure",
+        title: "Disclosure and Epistemic Exploitation",
         slug: "epistemic-exploitation",
         thumbURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/Epistemic+Exploitation+Image.png",
         description: "Learn to recognize and address situations where someone's lived experience is exploited or dismissed in workplace interactions.",
         videos: [
             {
-                name: "Introduction",
+                name: "Epistemic Exploitation Introduction",
                 type: "narrative",
-                videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/GINA+AVATARS/Epistemic+Exploitation+Introduction.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v3/NEW+GINA+INTRODUCTION.mp4",
                 autoPlayNext: true,
             },
 
 
             {
-                name: "Initial Disclosure Quiz",
+                name: "Initial Disclosure Example",
                 type: "quiz",
-                videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260628_WGF_OrbitalMedia_EpistemicExploitation_SceneOne_Combined_v1.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260628_WGF_OrbitalMedia_EpistemicExploitation_SceneOne_Combined_v1.mp4",
                 autoPlayNext: false,
-                question: "How does Emma respond?",
+                question: "Which response will best support Alex?",
                 answers: [
                     {
                         name: "Option A) Help Me Understand",
@@ -36,24 +34,16 @@ export const experiences = [
                         name: "Option C) Care Without Compromise",
                         isCorrect: true,
                         hasSelected: false,
+                        videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260629_WGF_OrbitalMedia_EpistemicExploitation_SceneOne_Correct+Option+With+Title.mp4",
                     },
                 ],
-            },
-
-            {
-                name: "Initial Disclosure Correct Answer",
-                type: "narrative",
-                videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260629_WGF_OrbitalMedia_EpistemicExploitation_SceneOne_Correct+Option+With+Title.mp4",
-                autoPlayNext: true,
             },
 
             
             {
                 name: "Initial Disclosure Conclusion",
                 type: "narrative",
-                videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/GINA+AVATARS/SCENE+1+GINA+REFLECTION.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v3/INITIAL+DISCLOSURE+CONCLUSION.mp4",
                 autoPlayNext: true,
             },
 
@@ -66,45 +56,35 @@ export const experiences = [
             {
                 name: "The Retelling Loop Introduction",
                 type: "narrative",
-                videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/GINA+AVATARS/GINA+SCENE+2+INTRO.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v3/RETELLING+LOOP+INTRODUCTION.mp4",
                 autoPlayNext: true,
             },
 
             {
                 name: "The Retelling Loop Example",
                 type: "quiz",
-                videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260628_WGF_OrbitalMedia_EpistemicExploitation_SceneTwo_Combined.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260628_WGF_OrbitalMedia_EpistemicExploitation_SceneTwo_Combined.mp4",
                 autoPlayNext: false,
-                question: "How is the process designed – option",
+                question: "Which outcome would shrink the retelling loop?",
                 answers: [
                     {
-                        name: "Option A) OH meeting",
+                        name: "Option A) Tell me again",
                         isCorrect: false,
                         hasSelected: false,
                     },
                     {
-                        name: "Option B) HR meeting",
+                        name: "Option B) Who else needs to know",
                         isCorrect: true,
                         hasSelected: false,
+                        videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260629_WGF_OrbitalMedia_EpistemicExploitation_SceneTwo_OptionB+With+Title.mp4",
                     },
                 ],
             },
 
             {
-                name: "The Retelling Loop Correct",
-                type: "narrative",
-                videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260629_WGF_OrbitalMedia_EpistemicExploitation_SceneTwo_OptionB+With+Title.mp4",
-                autoPlayNext: true,
-            },
-
-            {
                 name: "The Retelling Loop Conclusion",
                 type: "narrative",
-                videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/GINA+AVATARS/SCENE+2+REFLECTION.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v3/RETELLING+LOOP+CONCLUSION.mp4",
                 autoPlayNext: true,
             },
 
@@ -112,16 +92,14 @@ export const experiences = [
 
             {  name: "Team Conversation Introduction",
                 type: "narrative",
-                videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/GINA+AVATARS/GINA+SCENE+3+INTRO.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v3/TEAM+CONVERSATION+INTRODUCTION.mp4",
                 autoPlayNext: true,
             },
 
             {
                 name: "Team Conversation Example",
                 type: "quiz",
-                videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260628_WGF_OrbitalMedia_EpistemicExploitation_SceneThree_Complete.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v3/20260702_WGF_OrbitalMedia_EpistemicExploitation_SceneThree_Complete+With+Title.mp4",
                 autoPlayNext: false,
                 question: "How do colleagues respond?",
                 answers: [
@@ -134,22 +112,15 @@ export const experiences = [
                         name: "Option B – Share the responsibility",
                         isCorrect: true,
                         hasSelected: false,
+                        videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260629_WGF_OrbitalMedia_EpistemicExploitation_SceneThree_OptionB+With+Title.mp4",
                     },
                 ],
-            },
-            {
-                name: "Team Conversation Correct",
-                type: "narrative",
-                videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260629_WGF_OrbitalMedia_EpistemicExploitation_SceneThree_OptionB+With+Title.mp4",
-                autoPlayNext: true,
             },
 
             {
                 name: "Team Conversation Conclusion",
                 type: "narrative",
-                videoURL:
-                    "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/GINA+AVATARS/GINA+FINAL+CLOSE.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v3/TEAM+CONVERSATION+CONCLUSION.mp4",
                 autoPlayNext: true,
             },
 

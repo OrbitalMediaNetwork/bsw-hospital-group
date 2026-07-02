@@ -36,10 +36,12 @@ export default {
 
     methods: {
         checkAnswer(answer) {
-            if (answer.isCorrect) {
+            answer.hasSelected = true;
+            if (answer.videoURL) {
+                this.$emit("selectAnswer", answer);
+            } else if (answer.isCorrect) {
                 setTimeout(() => this.$emit("playNextVideo"), 800);
             }
-            answer.hasSelected = true;
         },
     },
 };

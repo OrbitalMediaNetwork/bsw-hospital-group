@@ -6,7 +6,7 @@ export const clients = [
     description: 'Healthcare EDI training modules',
     experiences: [
       {
-        title: "The Initial Disclosure",
+        title: "Disclosure and Epistemic Exploitation",
         slug: "epistemic-exploitation",
         thumbURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/Epistemic+Exploitation+Image.png"
       },
