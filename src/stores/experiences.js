@@ -26,7 +26,7 @@ export const experiences = [
                         hasSelected: false,
                     },
                     {
-                        name: "Option B) Patients are people too",
+                        name: "Option B) Patients Are People Too",
                         isCorrect: false,
                         hasSelected: false,
                     },
@@ -68,12 +68,12 @@ export const experiences = [
                 question: "Which outcome would shrink the retelling loop?",
                 answers: [
                     {
-                        name: "Option A) Tell me again",
+                        name: "Option A) Tell Me Again",
                         isCorrect: false,
                         hasSelected: false,
                     },
                     {
-                        name: "Option B) Who else needs to know",
+                        name: "Option B) Who Else Needs To Know",
                         isCorrect: true,
                         hasSelected: false,
                         videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260629_WGF_OrbitalMedia_EpistemicExploitation_SceneTwo_OptionB+With+Title.mp4",
@@ -104,12 +104,12 @@ export const experiences = [
                 question: "How do colleagues respond?",
                 answers: [
                     {
-                        name: "Option A – Look to person with lived experience",
+                        name: "Option A – Look To Person With Lived Experience",
                         isCorrect: false,
                         hasSelected: false,
                     },
                     {
-                        name: "Option B – Share the responsibility",
+                        name: "Option B – Share The Responsibility",
                         isCorrect: true,
                         hasSelected: false,
                         videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260629_WGF_OrbitalMedia_EpistemicExploitation_SceneThree_OptionB+With+Title.mp4",
