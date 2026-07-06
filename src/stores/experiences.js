@@ -16,7 +16,7 @@ export const experiences = [
             {
                 name: "Initial Disclosure Example",
                 type: "quiz",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v2/20260628_WGF_OrbitalMedia_EpistemicExploitation_SceneOne_Combined_v1.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v4/20260706_WGF_OrbitalMedia_EpistemicExploitation_SceneOne_Combined_v2.mp4",
                 autoPlayNext: false,
                 question: "Which response will best support Alex?",
                 answers: [
