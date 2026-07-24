@@ -126,6 +126,275 @@ export const experiences = [
 
         ],
     },
+
+
+
+
+    {
+        title: "It's a compliment, just ignore it",
+        slug: "its-a-compliment-just-ignore-it",
+        thumbURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/banner.png",
+        description: "Sexual discrimination & harassment",
+        videos: [
+            {
+                name: "Opening",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/1+AVATAR+OPENING+%C3%94%C3%87%C3%B4+GINA.mp4",
+                autoPlayNext: true,
+            },
+            /* SCENE 1 STARTS */
+            {
+                name: "Scene 1: The First Incident",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+1/20260721_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_SceneOne_Setup.mp4",
+                autoPlayNext: true,
+            },
+            {
+                name: "Beat",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+1/2+GINA.mp4",
+                autoPlayNext: true,
+            },
+            /* SCENE 1 ENDS */
+
+
+            /* SCENE 2 STARTS */
+            {
+                name: "Scene 2: The Second Incident",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+2/3+GINA.mp4",
+                autoPlayNext: true,
+            },
+
+            {
+                name: "Transition",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+2/20260721_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_SceneTwo_Setup.mp4",
+                autoPlayNext: true,
+            },
+            /* SCENE 2 ENDS */
+
+
+            /* SCENE 3 STARTS */
+            {
+                name: "Scene 3: Reporting The Issue",
+                type: "quiz",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+3/20260723_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_SceneThree_Complete.mp4",
+                autoPlayNext: false,
+                question: "Which response will best support Alex?",
+                answers: [
+                    {
+                        name: "Option A) Minimise Involvement",
+                        isCorrect: false,
+                        hasSelected: false,
+                    },
+                    {
+                        name: "Option B) Reframe As Compliment",
+                        isCorrect: false,
+                        hasSelected: false,
+                    },
+                    {
+                        name: "Option C) Naming & Owning",
+                        isCorrect: true,
+                        hasSelected: false,
+                        videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+3/20260716_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_SceneThree_OptionC.mp4",
+                    },
+                ],
+            },
+
+
+            {
+                name: "Quiz 1",
+                type: "quiz",
+                autoPlayNext: false,
+                question: "Why Is Option C The Best Response?",
+                answers: [
+                    {
+                        name: "Option A) Manager Is Seen To Take Action",
+                        isCorrect: false,
+                        hasSelected: false,
+                    },
+                    {
+                        name: "Option B) This Appeases Twara",
+                        isCorrect: false,
+                        hasSelected: false,
+                    },
+                    {
+                        name: "Option C) George’s Actions Can Effect Change For Everyone",
+                        isCorrect: true,
+                        hasSelected: false,
+                    },
+                ],
+            },
+
+            {
+                name: "Quiz 2",
+                type: "quiz",
+                autoPlayNext: false,
+                question: "What Defines Harassment In This Scenario?",
+                answers: [
+                    {
+                        name: "Option A) Whether It Was Meant As A Joke?",
+                        isCorrect: false,
+                        hasSelected: false,
+                    },
+                    {
+                        name: "Option B) Whether It Happens Repeatedly",
+                        isCorrect: false,
+                        hasSelected: false,
+                    },
+                    {
+                        name: "Option C) The Impact On The Person Experiencing It?",
+                        isCorrect: true,
+                        hasSelected: false,
+                    },
+                ],
+            },
+
+            {
+                name: "Scene 3 Reflection",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+3/4+GINA.mp4",
+                autoPlayNext: true,
+            },
+
+            /* SCENE 3 ENDS */
+
+            /* SCENE 4 STARTS */
+            {
+                name: "Scene 4: The Pattern Deepens",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+4/5+GINA.mp4",
+                autoPlayNext: true,
+            },
+
+            {
+                name: "Scene 4 Reflection",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+4/20260723_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_SceneFour_Setup_v2.mp4",
+                autoPlayNext: true,
+            },
+            /* SCENE 4 ENDS */
+
+            /* SCENE 5 STARTS */
+            {
+                name: "Scene 5 Bystander Moment Introduction",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+5/6+GINA.mp4",
+                autoPlayNext: true,
+            },
+
+            {
+                name: "Scene 5: Bystander Moment",
+                type: "quiz",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+5/20260723_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_SceneFive_Complete.mp4",
+                autoPlayNext: false,
+                question: "Margaret Clearly Hears It",
+                answers: [
+                    {
+                        name: "Option A) Carry On As Normal",
+                        isCorrect: false,
+                        hasSelected: false,
+                    },
+                    {
+                        name: "Option A) Deflect With Humour",
+                        isCorrect: false,
+                        hasSelected: false,
+                    },
+                    {
+                        name: "Option B) Naming And Owning",
+                        isCorrect: true,
+                        hasSelected: false,
+                        videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+5/20260722_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_SceneFive_Option_C.mp4",
+                    },
+                ],
+            },
+            {
+                name: "Scene 5 Leadership Opening",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+5/7+GINA.mp4",
+                autoPlayNext: true,
+            },
+            /* SCENE 5 ENDS */
+
+            /* SCENE 6 STARTS */
+            {
+                name: "Scene 6 Escalation Introduction",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+6/8+GINA.mp4",
+                autoPlayNext: true,
+            },
+            {
+                name: "Scene 6: Escalation",
+                type: "quiz",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+6/20260723_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_SceneSix_Complete.mp4",
+                autoPlayNext: false,
+                question: "Margaret raises the concern with George",
+                answers: [
+                    {
+                        name: "Option A) Delegate Away",
+                        isCorrect: false,
+                        hasSelected: false,
+                    },
+                    {
+                        name: "Option B) Delay Action",
+                        isCorrect: false,
+                        hasSelected: false,
+                    },
+                    {
+                        name: "Option C) Ownership + Action",
+                        isCorrect: true,
+                        hasSelected: false,
+                        videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+6/20260722_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_SceneSix_Option_C.mp4",
+                    },
+                ],
+            },
+            {
+                name: "Scene 6 Reflection",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+6/9+GINA.mp4",
+                autoPlayNext: true,
+            },
+            /* SCENE 6 ENDS */
+
+            /* FINAL SCENE STARTS */
+            {
+                name: "Final Scene: Resetting The Standard Introduction",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/FINAL+SCENE/10+GINA.mp4",
+                autoPlayNext: true,
+            },
+
+            {
+                name: "Final Scene: Resetting The Standard",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/FINAL+SCENE/20260723_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_Final_Scene.mp4",
+                autoPlayNext: true,
+            },
+
+            {
+                name: "Final Scene: Resetting The Standard Conclusion",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/FINAL+SCENE/11+GINA.mp4",
+                autoPlayNext: true,
+            },
+            /* FINAL SCENE ENDS */
+        ],
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
         title: "Microaggression",
         slug: "microaggression",
