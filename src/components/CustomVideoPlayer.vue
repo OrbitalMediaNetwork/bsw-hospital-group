@@ -197,14 +197,15 @@ export default {
         },
 
         showVideosMenu() {
+            const currentVideo = this.videoStore.currentVideo;
+            if (!currentVideo.videoURL) return true;
             if (
-                !this.videoStore.currentVideo.autoPlayNext &&
-                (this.state.currentTime >=
-                    this.videoStore.currentVideo.menuTime ||
-                    this.isEnded)
+                !currentVideo.autoPlayNext &&
+                (this.state.currentTime >= currentVideo.menuTime || this.isEnded)
             ) {
                 return true;
-            } else return false;
+            }
+            return false;
         },
 
         showPopupMenu() {
