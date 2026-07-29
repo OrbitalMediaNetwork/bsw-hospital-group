@@ -254,7 +254,7 @@ export const experiences = [
             {
                 name: "Reporting The Issue Conclusion",
                 type: "narrative",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v2/REPORTING+ISSUE+CONCLUSION.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v2/REPORTING+CONCLUSION.mp4",
                 autoPlayNext: true,
             },
 
@@ -313,7 +313,7 @@ export const experiences = [
             {
                 name: "Bystander Moment Conclusion",
                 type: "narrative",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+5/7+GINA.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v2/REPORTING+ISSUE+CONCLUSION.mp4",
                 autoPlayNext: true,
             },
             /* SCENE 5 ENDS */
