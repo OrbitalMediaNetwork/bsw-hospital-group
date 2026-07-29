@@ -131,7 +131,7 @@ export const experiences = [
 
 
     {
-        title: "It's a compliment, just ignore it",
+        title: "It's A Compliment, Just Ignore It",
         slug: "its-a-compliment-just-ignore-it",
         thumbURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/banner.png",
         description: "Sexual discrimination & harassment",
@@ -139,7 +139,7 @@ export const experiences = [
             {
                 name: "“It’s Just A Compliment” Introductiong",
                 type: "narrative",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/1+AVATAR+OPENING+%C3%94%C3%87%C3%B4+GINA.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v2/Its+a+Compliment%2C+Just+Ignore+It+Introduction.mp4",
                 autoPlayNext: true,
             },
             /* SCENE 1 STARTS */
@@ -162,14 +162,14 @@ export const experiences = [
             {
                 name: "The Second Incident Introduction",
                 type: "narrative",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+2/3+GINA.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v2/The+Second+Incident+Introduction.mp4",
                 autoPlayNext: true,
             },
 
             {
                 name: "The Second Incident Example",
                 type: "narrative",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+2/20260721_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_SceneTwo_Setup.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v2/REPORTING+ISSUE+CONCLUSION.mp4",
                 autoPlayNext: true,
             },
             /* SCENE 2 ENDS */
@@ -264,7 +264,7 @@ export const experiences = [
             {
                 name: "The Pattern Deepens Introduction",
                 type: "narrative",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+4/5+GINA.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v2/The+Pattern+Deepens+Introduction.mp4",
                 autoPlayNext: true,
             },
 
@@ -280,7 +280,7 @@ export const experiences = [
             {
                 name: "Bystander Moment Introduction",
                 type: "narrative",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+5/6+GINA.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v2/Bystander+Moment+Introduction.mp4",
                 autoPlayNext: true,
             },
 
@@ -322,7 +322,7 @@ export const experiences = [
             {
                 name: "Escalation To Leadership Introduction",
                 type: "narrative",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+6/8+GINA.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v2/Escalation+To+Leadership+Introduction.mp4",
                 autoPlayNext: true,
             },
             {
@@ -353,7 +353,7 @@ export const experiences = [
             {
                 name: "Escalation To Leadership Conclusion",
                 type: "narrative",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+6/9+GINA.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v2/Escalation+To+Leadership+Conclusion.mp4",
                 autoPlayNext: true,
             },
             /* SCENE 6 ENDS */
@@ -362,7 +362,7 @@ export const experiences = [
             {
                 name: "Resetting The Standard Introduction",
                 type: "narrative",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/FINAL+SCENE/10+GINA.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v2/Resetting+The+Standard+Introduction.mp4",
                 autoPlayNext: true,
             },
 
@@ -376,7 +376,7 @@ export const experiences = [
             {
                 name: "Resetting The Standard Conclusion",
                 type: "narrative",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/FINAL+SCENE/11+GINA.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v2/Resetting+The+Standard+Introduction.mp4",
                 autoPlayNext: true,
             },
             /* FINAL SCENE ENDS */

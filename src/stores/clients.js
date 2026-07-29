@@ -11,17 +11,17 @@ export const clients = [
         thumbURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/epistemic-exploitation/Epistemic+Exploitation+Image.png"
       },
       {
-        title: "It's a compliment, just ignore it",
+        title: "It's A Compliment, Just Ignore It",
         slug: "its-a-compliment-just-ignore-it",
         thumbURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/banner.png"
       },
       {
-        title: "EDI - Why Do They Get All the Funding?",
+        title: "Why Do They Get All the Funding?",
         slug: "edi-why-dothey-get-all-the-funding",
         thumbURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/banner.png"
       },
       {
-        title: "EDI - It’s Basically Already Decided.",
+        title: "It’s Basically Already Decided.",
         slug: "edi-its-basically-already-decided",
         thumbURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/banner.png"
       }
