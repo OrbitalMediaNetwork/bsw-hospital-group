@@ -152,7 +152,7 @@ export const experiences = [
             {
                 name: "The First Incident Conclusion",
                 type: "narrative",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+1/2+GINA.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v2/The+First+Incident+Conclusion.mp4",
                 autoPlayNext: true,
             },
             /* SCENE 1 ENDS */
