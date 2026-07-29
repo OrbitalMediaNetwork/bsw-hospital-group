@@ -137,7 +137,7 @@ export const experiences = [
         description: "Sexual discrimination & harassment",
         videos: [
             {
-                name: "“It’s Just A Compliment” Introductiong",
+                name: "“It’s Just A Compliment” Introduction",
                 type: "narrative",
                 videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v2/Its+a+Compliment%2C+Just+Ignore+It+Introduction.mp4",
                 autoPlayNext: true,
