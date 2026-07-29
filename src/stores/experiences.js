@@ -376,7 +376,7 @@ export const experiences = [
             {
                 name: "Resetting The Standard Conclusion",
                 type: "narrative",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v2/Resetting+The+Standard+Introduction.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v2/Resetting+The+Standard+Conclusion.mp4",
                 autoPlayNext: true,
             },
             /* FINAL SCENE ENDS */
