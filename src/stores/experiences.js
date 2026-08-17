@@ -386,141 +386,150 @@ export const experiences = [
 
 
 
-
-
-
-
-
-
-
-
-
-
     {
-        title: "Microaggression",
-        slug: "microaggression",
-        thumbURL: "/images/micro-thumbnail.png",
-        description: "Understand microaggressions, their impact, and learn effective strategies for recognition and response in professional settings.",
+        title: "Why Do They Get All The Funding?",
+        slug: "edi-why-dothey-get-all-the-funding",
+        thumbURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/banner.png",
+        description: "Sexual discrimination & harassment",
         videos: [
             {
-                name: "Introduction",
+                name: "Why Do They Get All The Funding?",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+1/1+GEORGE.mp4",
+                autoPlayNext: true,
+            },
+
+            /* SCENE 1 STARTS */
+            {
+                name: "The Announcement",
                 type: "quiz",
-                videoURL:
-                    "https://microaggression-content.s3.eu-west-2.amazonaws.com/Act+1+updated+3.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+1/20260810_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleOne_SceneOne_Complete_Update.mp4",
                 autoPlayNext: false,
-                question:
-                    "Which of the following is an example of a microaggression?",
+                question: "What is the most effective way to respond to fairness concerns about inclusion?",
                 answers: [
                     {
-                        name: "A) Calling a colleague by their preferred name",
+                        name: "Option A) Agree With The Concern",
                         isCorrect: false,
                         hasSelected: false,
                     },
                     {
-                        name: "B) Asking a female collegue how many children she has",
+                        name: "Option B) Reframe Around Equity And Different Needs",
                         isCorrect: true,
                         hasSelected: false,
+                        videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+1/20260810_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_SceneOne_OptionB.mp4",
                     },
                     {
-                        name: "C) Offering to make a colleague a cup of tea",
+                        name: "Option C) Shut The Conversation Down",
                         isCorrect: false,
                         hasSelected: false,
                     },
                 ],
             },
             {
-                name: "What are Microaggressions?",
+                name: "The Announcement Conclusion",
                 type: "narrative",
-                videoURL:
-                    "https://microaggression-content.s3.eu-west-2.amazonaws.com/Act+2.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+1/2+GEORGE.mp4",
+                autoPlayNext: true,
+            },
+            /* SCENE 1 ENDS */
+
+
+            /* SCENE 2 STARTS */
+            {
+                name: "The After-Conversation Introduction",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+2/3+GEORGE.mp4",
                 autoPlayNext: true,
             },
             {
-                name: "Recognising Microaggressions: Example 1",
-                type: "narrative",
-                videoURL:
-                    "https://microaggression-content.s3.eu-west-2.amazonaws.com/Act+3+updated+4.mp4",
-                autoPlayNext: true,
-            },
-            {
-                name: "Recognising Microaggressions: Example 2",
-                type: "narrative",
-                videoURL:
-                    "https://microaggression-content.s3.eu-west-2.amazonaws.com/Act+4+updated.mp4",
-                autoPlayNext: true,
-            },
-            {
-                name: "Recognising Microaggressions: Example 3",
-                type: "narrative",
-                videoURL:
-                    "https://microaggression-content.s3.eu-west-2.amazonaws.com/Act+5+updated.mp4",
-                autoPlayNext: true,
-            },
-            {
-                name: "Recognising Microaggressions: Example 4",
-                type: "narrative",
-                videoURL:
-                    "https://microaggression-content.s3.eu-west-2.amazonaws.com/Act+6+updated.mp4",
-                autoPlayNext: true,
-            },
-            {
-                name: "Recognising Microaggressions: Example 5",
-                type: "narrative",
-                videoURL:
-                    "https://microaggression-content.s3.eu-west-2.amazonaws.com/Act+7.mp4",
-                autoPlayNext: true,
-            },
-            {
-                name: "Recognising Microaggressions: Example 6",
+                name: "The After-Conversation",
                 type: "quiz",
-                videoURL:
-                    "https://microaggression-content.s3.eu-west-2.amazonaws.com/Act+8+updated+3.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+2/20260810_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleOne_SceneTwo_Completed_Update.mp4",
                 autoPlayNext: false,
-                question:
-                    "True or False: Microaggressions are always intentional?",
+                question: "Who is responsible for explaining and justifying inclusion initiatives?",
                 answers: [
                     {
-                        name: "A) True",
+                        name: "Option A) Leadership And The Organisation (everyone)",
+                        isCorrect: true,
+                        hasSelected: false,
+                        videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+2/20260810_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_SceneTwo_OptionA_v1.mp4",
+                    },
+                    {
+                        name: "Option B) Individuals From Affected Groups",
                         isCorrect: false,
                         hasSelected: false,
                     },
                     {
-                        name: "B) False",
-                        isCorrect: true,
+                        name: "Option C) Anyone Willing To Speak",
+                        isCorrect: false,
                         hasSelected: false,
                     },
                 ],
             },
+
+
             {
-                name: "The Impact of Microaggressions",
+                name: "The After-Conversation Conclusion",
                 type: "narrative",
-                videoURL:
-                    "https://microaggression-content.s3.eu-west-2.amazonaws.com/Act+9+updated+3.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+2/4+GEORGE.mp4",
+                autoPlayNext: true,
+            },
+            /* SCENE 2 ENDS */
+
+
+            /* SCENE 3 STARTS */
+            {
+                name: "The Narrative Spreads Introduction",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+3/5+GEORGE.mp4",
                 autoPlayNext: true,
             },
             {
-                name: "Responding to Microaggressions: Scenario 1",
+                name: "The Narrative Spreads",
                 type: "narrative",
-                videoURL:
-                    "https://microaggression-content.s3.eu-west-2.amazonaws.com/Act+10+updated+2.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+3/20260720_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleOne_SceneThree_Setup.mp4",
                 autoPlayNext: true,
             },
             {
-                name: "Responding to Microaggressions: Scenario 2",
+                name: "The Narrative Spreads Conclusion",
                 type: "narrative",
-                videoURL:
-                    "https://microaggression-content.s3.eu-west-2.amazonaws.com/Act+11+updated.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+3/6+GEORGE.mp4",
+                autoPlayNext: true,
+            },
+
+            /* SCENE 3 ENDS */
+
+            /* SCENE 4 STARTS */
+            {
+                name: "Resetting The Frame Introduction",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+4/7+GEORGE.mp4",
                 autoPlayNext: true,
             },
             {
-                name: "Conclusion",
+                name: "Resetting The Frame",
                 type: "narrative",
-                videoURL:
-                    "https://microaggression-content.s3.eu-west-2.amazonaws.com/Act+12+updated+2.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+4/20260810_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_SceneFour_Setup_Update.mp4",
                 autoPlayNext: true,
             },
+            {
+                name: "Resetting The Frame Conclusion",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+4/8+GEORGE.mp4",
+                autoPlayNext: true,
+            },
+            /* SCENE 4 ENDS */
         ],
     },
+
+
+
+
+
+
+
+
+
     {
         title: "Allyship",
         slug: "allyship",
