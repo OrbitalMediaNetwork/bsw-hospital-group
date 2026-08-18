@@ -400,7 +400,7 @@ export const experiences = [
 
             /* SCENE 1 STARTS */
             {
-                name: "The Announcement",
+                name: "The Announcement Introduction",
                 type: "quiz",
                 videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+1/20260810_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleOne_SceneOne_Complete_Update.mp4",
                 autoPlayNext: false,
