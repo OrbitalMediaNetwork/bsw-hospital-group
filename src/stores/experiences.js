@@ -295,7 +295,6 @@ export const experiences = [
                         name: "Option A) Carry On As Normal",
                         isCorrect: false,
                         hasSelected: false,
-                        videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+5/v2/20260724_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_SceneFive_Option_A.mp4",
                     },
                     {
                         name: "Option A) Deflect With Humour",
