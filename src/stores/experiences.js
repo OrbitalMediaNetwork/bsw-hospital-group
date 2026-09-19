@@ -412,10 +412,10 @@ export const experiences = [
                         hasSelected: false,
                     },
                     {
-                        name: "Option B) Reframe Around Equity And Different Needs",
+                        name: "Option B) Reframe To Equity",
                         isCorrect: true,
                         hasSelected: false,
-                        videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+1/20260810_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_SceneOne_OptionB.mp4",
+                        videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v5/20260914_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleOne_SceneOne_OptionB_Cut121.mp4",
                     },
                     {
                         name: "Option C) Shut The Conversation Down",
@@ -443,15 +443,15 @@ export const experiences = [
             {
                 name: "The After-Conversation Example",
                 type: "quiz",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+2/20260818_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_SceneTwo_Complete.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v5/20260918_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleOne_SceneTwo_Complete.mp4",
                 autoPlayNext: false,
                 question: "Who is responsible for explaining and justifying inclusion initiatives?",
                 answers: [
                     {
-                        name: "Option A) Everyone, with leadership at the forefront",
+                        name: "Option A) Leadership Owned",
                         isCorrect: true,
                         hasSelected: false,
-                        videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+2/20260810_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_SceneTwo_OptionA_v1.mp4",
+                        videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/v5/20260914_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleOne_SceneTwo_OptionA.mp4",
                     },
                     {
                         name: "Option B) Individuals from affected groups",
