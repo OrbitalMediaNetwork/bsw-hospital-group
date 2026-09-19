@@ -169,7 +169,7 @@ export const experiences = [
             {
                 name: "The Second Incident Example",
                 type: "narrative",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+2/20260721_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_SceneTwo_Setup.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v3/20260916_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_SceneTwo_Setup_with_edits.mp4",
                 autoPlayNext: true,
             },
             /* SCENE 2 ENDS */
@@ -280,14 +280,14 @@ export const experiences = [
             {
                 name: "Bystander Moment Introduction",
                 type: "narrative",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v2/Bystander+Moment+Introduction.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v3/20260916_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_SceneFive_Setup_with_edit.mp4",
                 autoPlayNext: true,
             },
 
             {
                 name: "Bystander Moment Example",
                 type: "quiz",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+5/v2/20260724_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_SceneFive_Complete.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v3/20260918_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_SceneFive_Complete.mp4",
                 autoPlayNext: false,
                 question: "Margaret Clearly Hears It",
                 answers: [
@@ -297,15 +297,15 @@ export const experiences = [
                         hasSelected: false,
                     },
                     {
-                        name: "Option A) Deflect With Humour",
-                        isCorrect: false,
-                        hasSelected: false,
-                    },
-                    {
-                        name: "Option B) Naming And Owning",
+                        name: "Option B) Deflect With Humour",
                         isCorrect: true,
                         hasSelected: false,
-                        videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/EDI+2+Its+a+compliment+just+ignore+it/SCENE+5/20260722_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_SceneFive_Option_C.mp4",
+                        videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v3/20260916_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_SceneFive_OptionB_with_edit.mp4",
+                    },
+                    {
+                        name: "Option C) Naming And Owning",
+                        isCorrect: false,
+                        hasSelected: false,
                     },
                 ],
             },
@@ -375,7 +375,7 @@ export const experiences = [
             {
                 name: "Resetting The Standard Conclusion",
                 type: "narrative",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v2/Resetting+The+Standard+Conclusion.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-a-compliment/v3/20260917_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleTwo_FinalScene_with_edits_v1.mp4",
                 autoPlayNext: true,
             },
             /* FINAL SCENE ENDS */
