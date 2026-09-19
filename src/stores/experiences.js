@@ -448,18 +448,18 @@ export const experiences = [
                 question: "Who is responsible for explaining and justifying inclusion initiatives?",
                 answers: [
                     {
-                        name: "Option A) Leadership And The Organisation (everyone)",
+                        name: "Option A) Everyone, with leadership at the forefront",
                         isCorrect: true,
                         hasSelected: false,
                         videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-why-dothey-get-all-the-funding/SCENE+2/20260810_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_SceneTwo_OptionA_v1.mp4",
                     },
                     {
-                        name: "Option B) Individuals From Affected Groups",
+                        name: "Option B) Individuals from affected groups",
                         isCorrect: false,
                         hasSelected: false,
                     },
                     {
-                        name: "Option C) Anyone Willing To Speak",
+                        name: "Option C) The Diversity and Inclusion specialist",
                         isCorrect: false,
                         hasSelected: false,
                     },
