@@ -83,4 +83,4 @@ Things like project title and images will need to be customised. Some of these a
 
 If you need any help, please reach out to the developers
 
-[Tom Dolton](mailto:tomd@orbitalmedia.com)
+[Ali Rasheed](mailto:alir@orbitalmedia.com)
