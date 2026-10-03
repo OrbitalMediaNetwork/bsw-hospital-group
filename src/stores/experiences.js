@@ -528,316 +528,193 @@ export const experiences = [
 
 
 
+    {
+        title: "It’s Basically Already Decided.",
+        slug: "edi-its-basically-already-decided",
+        thumbURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/banner.png",
+        description: "Recruitment Fairness & Perception",
+        videos: [
+            {
+                name: "Introduction",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/tania/TANIA+1+COMPLETE.mp4",
+                autoPlayNext: true,
+            },
 
-    {
-        title: "Allyship",
-        slug: "allyship",
-        thumbURL: "/images/allyship-thumbnail.png",
-        description: "Develop skills to become an effective ally by learning key concepts, recognizing scenarios, and taking appropriate action.",
-        videos: [
+
+            /* SCENE 1 STARTS */
+
             {
-                name: "Introduction",
+                name: "The Comment",
+                type: "narrative",
+                videoURL: "https://447184491365-6ad7uqj6.eu-west-2.console.aws.amazon.com/s3/object/bsw-videos-447184491365-eu-west-2-an?region=eu-west-2&prefix=edi-its-basically-already-decided/v1/20261002_WGF_OrbitalMedia_EDI+Scripts+%28Discrimination+x3%29_ModuleThree_SceneOne_Complete.mp4",
+                autoPlayNext: true,
+            },
+
+
+            {
+                name: "The Comment Insight",
                 type: "quiz",
-                videoURL:
-                    "https://allyship-content.s3.eu-west-2.amazonaws.com/Act+1.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/tania/TANIA+2+COMPLETE.mp4",
                 autoPlayNext: false,
-                question: "What is the best definition of an ally?",
+                question: "A colleague says the recruitment decision has already been made. What should you do?",
                 answers: [
                     {
-                        name: "A) Someone who will always support you no matter what",
+                        name: "Option A) Stay Silent",
                         isCorrect: false,
                         hasSelected: false,
                     },
                     {
-                        name: "B) Someone who supports and advocates for people from minoritised groups",
+                        name: "Option B) Challenge Constructively",
                         isCorrect: true,
                         hasSelected: false,
                     },
                     {
-                        name: "C) Someone who shares the same background as you",
+                        name: "Option C) Normalising The Narrative",
                         isCorrect: false,
                         hasSelected: false,
                     },
                 ],
             },
             {
-                name: "What is an Ally?",
+                name: "The Comment Conclusion",
                 type: "narrative",
-                videoURL:
-                    "https://allyship-content.s3.eu-west-2.amazonaws.com/Act+2.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/tania/TANIA+3+COMPLETE.mp4",
+                autoPlayNext: true,
+            },
+            /* SCENE 1 ENDS */
+
+
+            /* SCENE 2 STARTS */
+            {
+                name: "The Ripple Effect Introduction",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/tania/TANIA+4+COMPLETE.mp4",
                 autoPlayNext: true,
             },
             {
-                name: "Key Concepts of Allyship: Educate Yourself",
+                name: "The Ripple Effect",
                 type: "narrative",
-                videoURL:
-                    "https://allyship-content.s3.eu-west-2.amazonaws.com/Act+3+updated+2.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/20261002_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleThree_Scene2_Complete.mp4",
                 autoPlayNext: true,
             },
             {
-                name: "Key Concepts of Allyship: Listen Actively",
+                name: "The Ripple Effect Conclusion",
                 type: "narrative",
-                videoURL:
-                    "https://allyship-content.s3.eu-west-2.amazonaws.com/Act+4.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/tania/TANIA+5+COMPLETE.mp4",
+                autoPlayNext: true,
+            },
+            /* SCENE 2 ENDS */
+
+
+            /* SCENE 3 STARTS */
+            {
+                name: "Panel Dynamics Introduction",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/tania/TANIA+6+COMPLETE.mp4",
                 autoPlayNext: true,
             },
             {
-                name: "Key Concepts of Allyship: Challenge Bias",
-                type: "narrative",
-                videoURL:
-                    "https://allyship-content.s3.eu-west-2.amazonaws.com/Act+5.mp4",
-                autoPlayNext: true,
-            },
-            {
-                name: "Key Concepts of Allyship: Create Safe Spaces",
-                type: "narrative",
-                videoURL:
-                    "https://allyship-content.s3.eu-west-2.amazonaws.com/Act+6.mp4",
-                autoPlayNext: true,
-            },
-            {
-                name: "Scenario 1: Patient Scheduling",
-                type: "question",
-                videoURL:
-                    "https://allyship-content.s3.eu-west-2.amazonaws.com/Act+7+updated.mp4",
-                autoPlayNext: false,
-                question: "What should you do next?",
-                answers: [
-                    {
-                        name: "Explain to the patient that this is the only available slot and that the GP needs to see them urgently",
-                        isCorrect: false,
-                        hasSelected: false,
-                        videoURL:
-                            "https://allyship-content.s3.eu-west-2.amazonaws.com/Act+7.1.mp4",
-                        autoPlayNext: false,
-                    },
-                    {
-                        name: "Explore alternative dates or accommodations with the patient",
-                        isCorrect: true,
-                        hasSelected: false,
-                        videoURL:
-                            "https://allyship-content.s3.eu-west-2.amazonaws.com/Act+7.2.mp4",
-                        autoPlayNext: false,
-                    },
-                ],
-            },
-            {
-                name: "Scenario 2: Colleague is Upset",
-                type: "question",
-                videoURL:
-                    "https://allyship-content.s3.eu-west-2.amazonaws.com/Act+8+updated+2.mp4",
-                autoPlayNext: false,
-                question: "What should you do next?",
-                answers: [
-                    {
-                        name: "Complain to others or Jane's line manager",
-                        isCorrect: false,
-                        hasSelected: false,
-                        videoURL:
-                            "https://allyship-content.s3.eu-west-2.amazonaws.com/Act+8.1.mp4",
-                        autoPlayNext: false,
-                    },
-                    {
-                        name: "Talk to Jane at another time, or to your line manager to try to understand their perspective",
-                        isCorrect: true,
-                        hasSelected: false,
-                        videoURL:
-                            "https://allyship-content.s3.eu-west-2.amazonaws.com/Act+8.2.mp4",
-                        autoPlayNext: false,
-                    },
-                ],
-            },
-            {
-                name: "Scenario 3: Workplace Jokes",
-                type: "question",
-                videoURL:
-                    "https://allyship-content.s3.eu-west-2.amazonaws.com/Act+9.mp4",
-                autoPlayNext: false,
-                question: "What should you do next?",
-                answers: [
-                    {
-                        name: "Try to ignore the joke and assume it's harmless",
-                        isCorrect: false,
-                        hasSelected: false,
-                        videoURL:
-                            "https://allyship-content.s3.eu-west-2.amazonaws.com/Act+9.1.mp4",
-                        autoPlayNext: false,
-                    },
-                    {
-                        name: "Ask the colleague to stop and explain why what they might consider funny can be harmful",
-                        isCorrect: true,
-                        hasSelected: false,
-                        videoURL:
-                            "https://allyship-content.s3.eu-west-2.amazonaws.com/Act+9.2.mp4",
-                        autoPlayNext: false,
-                    },
-                ],
-            },
-            {
-                name: "Scenario 4: Privilege",
-                type: "narrative",
-                videoURL:
-                    "https://allyship-content.s3.eu-west-2.amazonaws.com/Act+10+updated.mp4",
-                autoPlayNext: true,
-            },
-            {
-                name: "Scenario 4: Question 1",
+                name: "Panel Dynamics",
                 type: "quiz",
-                videoURL:
-                    "https://allyship-content.s3.eu-west-2.amazonaws.com/OneFrameDummy.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/20261002_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleThree_Scene3_Complete.mp4",
                 autoPlayNext: false,
-                question:
-                    "Privilege is: Someone from a wealthy background who has been able to access better educational opportunities and therefore secures a higher-earning job.",
+                question: "One of the panel says “it’s a formality” what would you recommend?",
                 answers: [
                     {
-                        name: "Yes",
+                        name: "Option A) Introduce Safeguards",
                         isCorrect: true,
                         hasSelected: false,
                     },
                     {
-                        name: "No",
+                        name: "Option B) Avoid The Issue",
+                        isCorrect: false,
+                        hasSelected: false,
+                    },
+                    {
+                        name: "Option C) Go Along With It",
                         isCorrect: false,
                         hasSelected: false,
                     },
                 ],
             },
             {
-                name: "Scenario 4: Question 2",
-                type: "quiz",
-                videoURL:
-                    "https://allyship-content.s3.eu-west-2.amazonaws.com/OneFrameDummy+1.mp4",
-                autoPlayNext: false,
-                question:
-                    "Privilege is: A colleague without a physical disability does not need to consider whether they can enter a patient's home when doing a visit.",
-                answers: [
-                    {
-                        name: "Yes",
-                        isCorrect: true,
-                        hasSelected: false,
-                    },
-                    {
-                        name: "No",
-                        isCorrect: false,
-                        hasSelected: false,
-                    },
-                ],
-            },
-            {
-                name: "Scenario 4: Question 3",
-                type: "quiz",
-                videoURL:
-                    "https://allyship-content.s3.eu-west-2.amazonaws.com/OneFrameDummy.mp4",
-                autoPlayNext: false,
-                question:
-                    "Privilege is: A person whose work or school holidays naturally align with their religious holidays.",
-                answers: [
-                    {
-                        name: "Yes",
-                        isCorrect: true,
-                        hasSelected: false,
-                    },
-                    {
-                        name: "No",
-                        isCorrect: false,
-                        hasSelected: false,
-                    },
-                ],
-            },
-            {
-                name: "Scenario 4: Question 4",
-                type: "quiz",
-                videoURL:
-                    "https://allyship-content.s3.eu-west-2.amazonaws.com/OneFrameDummy+1.mp4",
-                autoPlayNext: false,
-                question:
-                    "Privilege is: A white person who can use a self-checkout without needing to keep a receipt in case they are stopped and challenged as a possible shoplifter.",
-                answers: [
-                    {
-                        name: "Yes",
-                        isCorrect: true,
-                        hasSelected: false,
-                    },
-                    {
-                        name: "No",
-                        isCorrect: false,
-                        hasSelected: false,
-                    },
-                ],
-            },
-            {
-                name: "Conclusion",
+                name: "Panel Dynamics Conclusion",
                 type: "narrative",
-                videoURL:
-                    "https://scoop-videos.s3.eu-west-2.amazonaws.com/hull-edi/Allyship+-+conclusion.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/tania/TANIA+7+COMPLETE.mp4",
                 autoPlayNext: true,
             },
+
+            /* SCENE 3 ENDS */
+
+            /* SCENE 4 STARTS */
+            {
+                name: "The Narrative Spreads Introduction",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/tania/TANIA+8+COMPLETE.mp4",
+                autoPlayNext: true,
+            },
+            {
+                name: "The Narrative Spreads",
+                type: "quiz",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/20261002_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleThree_Scene4+Complete.mp4",
+                autoPlayNext: false,
+                question: "What Helps to Maintain Fairness during Recruitment",
+                answers: [
+                    {
+                        name: "Option A) Keeping Decisions Informal",
+                        isCorrect: false,
+                        hasSelected: false,
+                    },
+                    {
+                        name: "Option B) Transparency And Accountability Throughout The Process",
+                        isCorrect: true,
+                        hasSelected: false,
+                    },
+                    {
+                        name: "Option C) Avoiding Difficult Conversations",
+                        isCorrect: false,
+                        hasSelected: false,
+                    },
+                ],
+            },
+            {
+                name: "The Narrative Spreads Conclusion",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/tania/TANIA+9+COMPLETE.mp4",
+                autoPlayNext: true,
+            },
+            
+            /* SCENE 4 ENDS */
+
+            /* SCENE 5 STARTS */
+            {
+                name: "Rebuilding Trust Introduction",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/tania/TANIA+10+COMPLETE.mp4",
+                autoPlayNext: true,
+            },
+            {
+                name: "Rebuilding Trust Example",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/20261001_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleThree_Scene5_FinalScene.mp4",
+                autoPlayNext: false,
+            },
+            {
+                name: "Rebuilding Trust Conclusion",
+                type: "narrative",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/tania/TANIA+11+COMPLETE.mp4",
+                autoPlayNext: true,
+            },
+            
+            /* SCENE 5 ENDS */
         ],
     },
-    {
-        title: "Conflict Resolution",
-        slug: "conflict-resolution",
-        thumbURL: "/images/cr-thumbnail.png",
-        description: "Master positive approaches to conflict resolution and learn to navigate workplace disagreements constructively.",
-        videos: [
-            {
-                name: "Introduction",
-                type: "quiz",
-                videoURL:
-                    "https://conflict-resolution-content.s3.eu-west-2.amazonaws.com/Act+1+updated+6.mp4",
-                autoPlayNext: false,
-                question:
-                    "What is the best way to approach conflict resolution?",
-                answers: [
-                    {
-                        name: "A) Remain out of harm's way",
-                        isCorrect: true,
-                        hasSelected: false,
-                    },
-                    {
-                        name: "B) Call for help",
-                        isCorrect: true,
-                        hasSelected: false,
-                    },
-                    {
-                        name: "C) Intervene",
-                        isCorrect: true,
-                        hasSelected: false,
-                    },
-                    {
-                        name: "D) All of the above",
-                        isCorrect: true,
-                        hasSelected: false,
-                    },
-                ],
-            },
-            {
-                name: "Key principles of Conflict Resolution?",
-                type: "narrative",
-                videoURL:
-                    "https://conflict-resolution-content.s3.eu-west-2.amazonaws.com/Act+2+updated.mp4",
-                autoPlayNext: true,
-            },
-            {
-                name: "Negative Approaches to Avoid",
-                type: "narrative",
-                videoURL:
-                    "https://conflict-resolution-content.s3.eu-west-2.amazonaws.com/Act+3+updated+3.mp4",
-                autoPlayNext: true,
-            },
-            {
-                name: "Positive Approaches",
-                type: "narrative",
-                videoURL:
-                    "https://conflict-resolution-content.s3.eu-west-2.amazonaws.com/Act+4+updated+2.mp4",
-                autoPlayNext: true,
-            },
-            {
-                name: "Conclusion",
-                type: "narrative",
-                videoURL:
-                    "https://conflict-resolution-content.s3.eu-west-2.amazonaws.com/Act+5+updated.mp4",
-                autoPlayNext: true,
-            },
-        ],
-    },
+
+
+
+
+
+
+
 ];
