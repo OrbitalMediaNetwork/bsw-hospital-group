@@ -535,7 +535,7 @@ export const experiences = [
         description: "Recruitment Fairness & Perception",
         videos: [
             {
-                name: "Introduction",
+                name: "It’s Already Decided Introduction",
                 type: "narrative",
                 videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/tania/TANIA+1+COMPLETE.mp4",
                 autoPlayNext: true,
@@ -545,7 +545,7 @@ export const experiences = [
             /* SCENE 1 STARTS */
 
             {
-                name: "The Comment",
+                name: "The Comment Example",
                 type: "narrative",
                 videoURL: "https://447184491365-6ad7uqj6.eu-west-2.console.aws.amazon.com/s3/object/bsw-videos-447184491365-eu-west-2-an?region=eu-west-2&prefix=edi-its-basically-already-decided/v1/20261002_WGF_OrbitalMedia_EDI+Scripts+%28Discrimination+x3%29_ModuleThree_SceneOne_Complete.mp4",
                 autoPlayNext: true,
@@ -593,7 +593,7 @@ export const experiences = [
                 autoPlayNext: true,
             },
             {
-                name: "The Ripple Effect",
+                name: "The Ripple Effect Example",
                 type: "narrative",
                 videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/20261002_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleThree_Scene2_Complete.mp4",
                 autoPlayNext: true,
@@ -615,7 +615,7 @@ export const experiences = [
                 autoPlayNext: true,
             },
             {
-                name: "Panel Dynamics",
+                name: "Panel Dynamics Example",
                 type: "quiz",
                 videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/20261002_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleThree_Scene3_Complete.mp4",
                 autoPlayNext: false,
@@ -655,7 +655,7 @@ export const experiences = [
                 autoPlayNext: true,
             },
             {
-                name: "The Narrative Spreads",
+                name: "The Narrative Spreads Example",
                 type: "quiz",
                 videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/20261002_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleThree_Scene4+Complete.mp4",
                 autoPlayNext: false,
