@@ -547,7 +547,7 @@ export const experiences = [
             {
                 name: "The Comment Example",
                 type: "narrative",
-                videoURL: "https://447184491365-6ad7uqj6.eu-west-2.console.aws.amazon.com/s3/object/bsw-videos-447184491365-eu-west-2-an?region=eu-west-2&prefix=edi-its-basically-already-decided/v1/20261002_WGF_OrbitalMedia_EDI+Scripts+%28Discrimination+x3%29_ModuleThree_SceneOne_Complete.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/20261002_WGF_OrbitalMedia_EDI+Scripts+(Discrimination+x3)_ModuleThree_SceneOne_Complete.mp4",
                 autoPlayNext: true,
             },
 
