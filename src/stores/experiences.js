@@ -555,7 +555,7 @@ export const experiences = [
             {
                 name: "The Comment Insight",
                 type: "quiz",
-                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/tania/TANIA+2+COMPLETE.mp4",
+                videoURL: "https://bsw-videos-447184491365-eu-west-2-an.s3.eu-west-2.amazonaws.com/edi-its-basically-already-decided/v1/THE+COMMENT+INSIGHT+NEW.mp4",
                 autoPlayNext: false,
                 question: "A colleague says the recruitment decision has already been made. What should you do?",
                 answers: [
