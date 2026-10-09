@@ -568,6 +568,7 @@ export const experiences = [
                         name: "Option B) Challenge Constructively",
                         isCorrect: true,
                         hasSelected: false,
+                        autoPlayNext: true,
                     },
                     {
                         name: "Option C) Normalising The Narrative",
@@ -625,6 +626,7 @@ export const experiences = [
                         name: "Option A) Introduce Safeguards",
                         isCorrect: true,
                         hasSelected: false,
+                        autoPlayNext: true,
                     },
                     {
                         name: "Option B) Avoid The Issue",
